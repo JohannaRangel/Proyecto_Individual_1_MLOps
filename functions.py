@@ -29,17 +29,25 @@ import os
 
 # ### Pruebas
 
+# In[4]:
 
 def PlayTimeGenre(genero: str):
-    df = pd.read_csv('PlayTimeGenre.csv')
-    
-    # Filtrar el DataFrame por el año especificado
-    result_df = df[df['genres'] == genero]
-    
-    response_data = {f'Año de lanzamiento con más horas jugadas para {row["genres"]}': row["year"] for _, row in result_df.iterrows()}
+    result_df = pd.read_csv('PlayTimeGenre.csv')
 
+    # Filtrar el DataFrame para el género específico
+    filtered_df = result_df[result_df['genres'] == genero]
+    
+    # Agrupar por año de lanzamiento y sumar las horas jugadas
+    grouped_df = filtered_df.groupby('year')['hours_game'].sum()
+    
+    # Encontrar el año con más horas jugadas
+    max_hours_year = grouped_df.idxmax()
+
+    # Construye el response_data
+    response_data = {"Año de lanzamiento con más horas jugadas para {}: {}".format(genero, max_hours_year)}
+
+    # Muestra el resultado
     return response_data
-# In[4]:
 
 
 def UsersRecommend(year: int):
