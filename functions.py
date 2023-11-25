@@ -36,11 +36,11 @@ def UsersRecommend(year: int):
     df = pd.read_csv('UsersRecommend.csv')
     
     # Filtrar el DataFrame por el año especificado
-    top3_games = df[df['year'] == year]
+    df_filtered = df[df['year'] == year]
 
-    response_data = [{"Puesto 1": top3_games.iloc[0]['name']},
-                    {"Puesto 2": top3_games.iloc[1]['name']},
-                    {"Puesto 3": top3_games.iloc[2]['name']}]
+    response_data = [{"Puesto 1": df_filtered.iloc[0]['name']},
+                     {"Puesto 2": df_filtered.iloc[1]['name']},
+                     {"Puesto 3": df_filtered.iloc[2]['name']}]
 
     return response_data
 
@@ -78,31 +78,12 @@ def UsersWorstDeveloper(year: str):
 
 # In[ ]:
 def sentiment_analysis(empresa_desarrolladora: str):
-    df_steam_games = pd.read_csv('steam_games_cleaned.csv')
-    df_user_reviews = pd.read_csv('user_reviews_cleaned.csv')
-
-    # Unir los DataFrames por la columna 'item_id'
-    merged_df = pd.merge(df_steam_games, df_user_reviews, on='item_id', how='inner')
-
-    # Agrupar por desarrolladora y sentimiento, y contar las ocurrencias
-    result_df = merged_df.groupby(['developer', 'sentiment_analysis']).size().reset_index(name='count')
-
-    # Pivoteando el DataFrame para tener sentimientos como columnas
-    result_df = result_df.pivot(index='developer', columns='sentiment_analysis', values='count').reset_index()
-
-    # Renombrar las columnas según el formato deseado
-    result_df.columns = ['developer', 'Negative', 'Neutral', 'Positive']
-
-    # Rellenar NaN con 0
-    result_df = result_df.fillna(0)
-
-    # Convertir las columnas a tipo int
-    result_df[['Negative', 'Neutral', 'Positive']] = result_df[['Negative', 'Neutral', 'Positive']].astype(int)
+    df = pd.read_csv('sentiment_analysis.csv')
 
     # Filtrar por la empresa desarrolladora
-    df_filtered = result_df[result_df['developer'] == empresa_desarrolladora]
+    result_df = df[df['developer'] == empresa_desarrolladora]
 
     # Convertir a formato de diccionario
-    sentiment_dict = df_filtered.set_index('developer').to_dict(orient='index')
-
-    return sentiment_dict
+    response_data = result_df.set_index('developer').to_dict(orient='index')
+    
+    return response_data
