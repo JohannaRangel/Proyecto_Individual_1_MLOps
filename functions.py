@@ -29,6 +29,16 @@ import os
 
 # ### Pruebas
 
+
+def PlayTimeGenre(genero: str):
+    df = pd.read_csv('PlayTimeGenre.csv')
+    
+    # Filtrar el DataFrame por el año especificado
+    result_df = df[df['genres'] == genero]
+    
+    response_data = {f'Año de lanzamiento con más horas jugadas para {row["genres"]}': row["year"] for _, row in result_df.iterrows()}
+
+    return response_data
 # In[4]:
 
 

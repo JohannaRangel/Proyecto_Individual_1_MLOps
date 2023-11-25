@@ -5,12 +5,14 @@
 
 
 from fastapi import FastAPI, HTTPException 
+import traceback  # Importa la biblioteca para imprimir la traza de la pila
 from typing import List, Dict
 import pandas as pd
 #import pyarrow
 from functions import UsersRecommend
 from functions import sentiment_analysis
 from functions import UsersWorstDeveloper
+from functions import PlayTimeGenre
 
 
 # In[ ]:
@@ -23,7 +25,21 @@ app = FastAPI()
 async def root():
     return {"Mensaje": "Proyecto Individual"}
 
-# ### Endpoint para obtener el top 3 de juegos MÁS recomendados por usuarios para el año dado
+
+# In[ ]:
+
+@app.get("/PlayTimeGenre/{genero}")
+async def user(genero: str):
+    try:
+        result = PlayTimeGenre(genero)
+        return result
+    
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=500, detail=f"Error al cargar el archivo PlayTimeGenre.csv: {str(e)}")
+
+    except Exception as e:
+        traceback.print_exc()  # Imprime la traza de la pila
+        raise HTTPException(status_code=500, detail=f"Error interno del servidor: {str(e)}")
 
 # In[ ]:
 
