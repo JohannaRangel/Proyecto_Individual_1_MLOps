@@ -36,42 +36,25 @@ def UsersRecommend(year: int):
     df = pd.read_csv('UsersRecommend.csv')
     
     # Filtrar el DataFrame por el año especificado
-    df_filtered = df[df['year'] == year]
+    result_df = df[df['year'] == year]
 
-    response_data = [{"Puesto 1": df_filtered.iloc[0]['name']},
-                     {"Puesto 2": df_filtered.iloc[1]['name']},
-                     {"Puesto 3": df_filtered.iloc[2]['name']}]
+    response_data = [{"Puesto 1": result_df.iloc[0]['name']},
+                     {"Puesto 2": result_df.iloc[1]['name']},
+                     {"Puesto 3": result_df.iloc[2]['name']}]
 
     return response_data
 
 
 # In[4]:
-def UsersWorstDeveloper(year: str):
-    df_steam_games = pd.read_csv('steam_games_cleaned.csv')
-    df_user_reviews = pd.read_csv('user_reviews_cleaned.csv')
-    
-    # Unir los DataFrames
-    df_merged = pd.merge(df_user_reviews, df_steam_games, on='item_id', how='left')
+def UsersWorstDeveloper(year: int):
+    df = pd.read_csv('UsersWorstDeveloper.csv')
 
-    # Filtrar las filas que cumplen con las condiciones
-    df_filtered = df_merged.loc[(df_merged['recommend'] == False) & (df_merged['sentiment_analysis'] == 0),
-                                ['year_x', 'developer']]
- 
-    # Renombrar la columna 'year_x' a 'year'
-    df_filtered = df_filtered.rename(columns={'year_x': 'year'})
-
-    # Contar las ocurrencias de cada desarrolladora por año
-    developer_counts = df_filtered.groupby(['year', 'developer']).size().reset_index(name='count')
+    # Filtrar el DataFrame por el año especificado
+    result_df = df[df['year'] == year]
     
-    # Ordenar por 'year' y 'count' en orden descendente
-    grouped_result = developer_counts.sort_values(by=['year', 'count'], ascending=[False, False])    
-
-    # Obtener el top 3 por año
-    top3_by_year = grouped_result.groupby('year').head(3)    
-    
-    response_data = [{"Puesto 1": top3_by_year.iloc[0]['developer']},
-                    {"Puesto 2": top3_by_year.iloc[1]['developer']},
-                    {"Puesto 3": top3_by_year.iloc[2]['developer']}]
+    response_data = [{"Puesto 1": result_df.iloc[0]['developer']},
+                    {"Puesto 2": result_df.iloc[1]['developer']},
+                    {"Puesto 3": result_df.iloc[2]['developer']}]
     
     return response_data
 
