@@ -1,4 +1,4 @@
-![industria](https://github.com/JohannaRangel/Proyecto_Individual_1_MLOps/raw/main/assets/steam.png)
+![Steam](https://github.com/JohannaRangel/Proyecto_Individual_1_MLOps/raw/main/assets/steam.png)
 <br />
 # Proyecto MLOps: Sistema de Recomendación de Videojuegos para Usuarios de Steam
 
@@ -9,7 +9,9 @@ Este proyecto representa una pieza clave de la fase de LABS en el bootcamp de He
 El propósito central es la creación del primer modelo de Machine Learning (end to end) que resuelva un problema de negocio en Steam, a través de un enfoque que involucra tareas de Data Engineering (ETL, EDA, API) hasta la implementación del ML. Se busca lograr un rápido desarrollo y tener un Producto Mínimo Viable (MVP).<br />
 <br />
 
-## Etapas del Proyecto<br />
+## Etapas del Proyecto <br />
+![Etapas](https://github.com/JohannaRangel/Proyecto_Individual_1_MLOps/raw/main/assets/Etapas.png)  
+<br />
 **1. Ingeniería de Datos (ETL y API)** <br />
 *Transformaciones de Datos:* Realicé transformaciones necesarias para leer los datasets con el formato correcto, siempre con el objetivo de optimizar el rendimiento de la API y el entrenamiento del modelo. <br />
 *Feature Engineering:* Creé la columna 'sentiment_analysis' aplicando análisis de sentimiento a las reseñas de los usuarios. <br />
