@@ -1,39 +1,42 @@
 ![industria](https://github.com/JohannaRangel/Proyecto_Individual_1_MLOps/raw/main/assets/steam.png)
 <br />
-¡Bienvenidos a nuestro proyecto integrador de predicción de datos en el mercado automotor! Durante este desafío, aplicaremos habilidades en machine learning para explorar, entender y modelar características de vehículos en el mercado actual. Este proyecto forma parte del M6 del Boopcamp el cual nos sirve como práctica previa a la etapa de Labs, sin embargo; cabe destacar que **``` es opcional ```**, **``` no será evaluado ```**,  **``` ni calificado de manera cuantitativa ```**.
+# Proyecto MLOps: Sistema de Recomendación de Videojuegos para Usuarios de Steam
 
-## Planteamiento de la Problemática
+### Descripción del Proyecto
+Este proyecto representa una pieza clave de la fase de LABS en el bootcamp de Henry, donde se enfoca en la práctica de habilidades técnicas y soft skills necesarias en el mercado laboral. Se desarrolló un caso de negocio real utilizando conjuntos de datos públicos de la industria de videojuegos, específicamente de la renombrada plataforma en línea STEAM.
 
-
-## Objetivos
-- Ibaja.<br />
-- Implementar 
-
-## Estructura del Proyecto
-
-4. [**/assets**](assets/) - Carpeta con imágenes y recursos utilizados en el desarrollo del proyecto.
+### Objetivo
+El propósito central es la creación del primer modelo de ML (end to end) que resuelva un problema de negocio en Steam, a través de un enfoque que involucra tareas de Data Engineering (ETL, EDA, API) hasta la implementación de un modelo de Machine Learning. Se busca lograr un rápido desarrollo y tener un Producto Mínimo Viable (MVP).<br />
 <br />
 
+## Etapas del Proyecto<br />
+**1. Ingeniería de Datos (ETL y API)** <br />
+*Transformaciones de Datos:* Realicé transformaciones necesarias para leer los datasets con el formato correcto, siempre con el objetivo de optimizar el rendimiento de la API y el entrenamiento del modelo. <br />
+*Feature Engineering:* Creé la columna 'sentiment_analysis' aplicando análisis de sentimiento a las reseñas de los usuarios. <br />
+*Desarrollo de API:* Implementé una API con FastAPI y Render que proporciona consultas sobre información de videojuegos. <br />
 
+**2. Análisis Exploratorio de Datos (EDA)** <br />
+Investigé relaciones entre variables, identifiqué outliers y busqué patrones interesantes en los datos.<br />
 
-1. [**/docs**](docs/) - Carpeta que contiene los entregables.<br />
-   1.1.[Informe De Análisis](docs/informe-analisis.pdf) - Documento que resume hallazgos, metodologías y conclusiones del análisis.<br />
-   
-2. [**/notebooks**](notebooks/) - Carpeta que contiene Jupyter Notebooks esenciales para el proyecto.<br />
-  2.1. [Conociendo Nuestro Dataset](notebooks/diccionario-datos.ipynb) - Guía detallada que le permitirá comprender la estructura y contenido del conjunto de datos (diccionario de datos).<br />
-  2.2. [Limpieza de Datos](notebooks/limpieza-datos.ipynb) - Notebook dedicado a la limpieza y preprocesamiento de datos.<br />
-  2.3. [Análisis Exploratorio de Datos](notebooks/analisis-exploratorio.ipynb) - Jupyter Notebook con el código para la exploración y análisis inicial del conjunto de datos.<br />
-  2.4. [Modelo de Clasificación con Aprendizaje Supervisado](notebooks/clasificacion.ipynb) - Este modelo permite clasificar el precio de los vehículos en baratos y caros usando la mediana de los precios como punto de corte.<br />
-  2.5. [Modelo de Regresión con Aprendizaje Supervisado](notebooks/regresion.ipynb) - Jupyter Notebook con el modelo de regresión que permite predecir el precio final de los vehículos.<br />
-   
-4. [**/data**](data/) - Carpeta dedicada a almacenar archivos relacionados con el manejo de datos.<br />
+**3. Modelos de Aprendizaje Automático** <br />
+*Sistema de Recomendación ítem-ítem:* Desarrollé un modelo que recomienda juegos similares en base a un juego dado, utilizando similitud del coseno. <br />
+*Sistema de Recomendación usuario-ítem:* Implementé un modelo que recomienda juegos a un usuario en función de juegos que otros usuarios similares disfrutaron.<br />
 
-|                              |                                                  Descripción                                                |      Nombre de Archivo       |
-|------------------------------|-------------------------------------------------------------------------------------------------------------|------------------------------|
-| [Archivo Original](data/original_dataset.csv)| Representa la información en su forma bruta tal como se adquirió, antes de cualquier manipulación o transformación.| original_dataset.csv |
-| [Archivo con Data Limpia](data/cleaned_dataset.csv)| Después del proceso de limpieza, este archivo contiene datos limpios y listos para su análisis. | cleaned_dataset.csv 
+**4. Implementación de MLOps** <br />
+*Deploy del Modelo:* Desplegué el modelo de recomendación como parte de la API, permitiendo consultas en tiempo real. <br />
 
-4. [**/assets**](assets/) - Carpeta con imágenes y recursos utilizados en el desarrollo del proyecto.
+**5. Video Explicativo** <br />
+Grabé un video explicativo que muestra el funcionamiento de la API, consultas realizadas y una breve explicación de los modelos de ML utilizados.<br />
 <br />
 
-### Trabajo realizado en equipo por estudiantes de la cohorte Dataft-17: <br />
+## Estructura del Repositorio <br />
+**1. [/Notebooks](notebooks/):** Contiene los Jupyter Notebooks donde se realizaron las transformaciones de datos, EDA y la implementación de modelos.<br />
+
+**2. [/API](api/):** Almacena el código correspondiente a la implementación de la API con FastAPI.<br />
+
+**3. [/Modelos](modelos/):** Contiene el código y los resultados de los modelos de recomendación implementados.<br />
+
+**4. [/Datos](datos/):** Almacena los datasets utilizados y, si es posible, una versión limpia y procesada de los mismos.<br />
+
+**4. [/Video](video/):** Contiene el video explicativo del proyecto.<br />
+
