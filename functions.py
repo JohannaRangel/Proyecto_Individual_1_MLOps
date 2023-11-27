@@ -1,35 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Función UsersRecommend
-
-# En esta sección, me enfocaré en perfeccionar las consultas que consumirá la API utilizando los archivos generados en los informes ETL. El objetivo es optimizar éstas consultas para que sean eficientes y livianas, asegurando su rapidez y eficacia.
-
-# ### Importación de Bibliotecas
-
-# In[1]:
+# In[ ]:
 
 
 import pandas as pd
 import os
 
-# ### Cargar el conjunto de datos limpiado
 
-# La versión de los archivos ya tratados y limpiados que se utilizaran en esta etapa se encuentran almacenados en Google Drive con acceso compartido. Datasets: https://bit.ly/47J98PN
+# In[ ]:
 
-# Fuente de datos: 
-# - user_reviews_cleaned.cvs
-# - steam_games_cleaned.csv
-
-# ### Rutinas
-
-# def UsersRecommend( año : int ): Devuelve el top 3 de juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos/neutrales)
-# Ejemplo de retorno: [{"Puesto 1" : X}, {"Puesto 2" : Y},{"Puesto 3" : Z}]
-# 
-
-# ### Pruebas
-
-# In[4]:
 
 def UserForGenre(genero:str):
     consulta2 = pd.read_csv('UserForGenre.csv')
@@ -56,6 +36,9 @@ def UserForGenre(genero:str):
     return result
 
 
+# In[ ]:
+
+
 def PlayTimeGenre(genero: str):
     result_df = pd.read_csv('PlayTimeGenre.csv')
 
@@ -75,6 +58,9 @@ def PlayTimeGenre(genero: str):
     return response_data
 
 
+# In[ ]:
+
+
 def UsersRecommend(year: int):
     df = pd.read_csv('UsersRecommend.csv')
     
@@ -88,7 +74,9 @@ def UsersRecommend(year: int):
     return response_data
 
 
-# In[4]:
+# In[ ]:
+
+
 def UsersWorstDeveloper(year: int):
     df = pd.read_csv('UsersWorstDeveloper.csv')
 
@@ -102,7 +90,10 @@ def UsersWorstDeveloper(year: int):
     return response_data
 
 
+
 # In[ ]:
+
+
 def sentiment_analysis(empresa_desarrolladora: str):
     df = pd.read_csv('sentiment_analysis.csv')
 
@@ -114,7 +105,10 @@ def sentiment_analysis(empresa_desarrolladora: str):
     
     return response_data
 
+
 # In[ ]:
+
+
 def recomendacion_usuario(item_id):
     df = pd.read_csv('modelo_espec.csv')
 
@@ -128,3 +122,4 @@ def recomendacion_usuario(item_id):
                     {"Puesto 3": result_df.iloc[2]['developer']}]
     '''
     return response_data
+
