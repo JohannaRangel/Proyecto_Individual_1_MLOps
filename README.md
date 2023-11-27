@@ -40,7 +40,7 @@ Grabé un video explicativo que muestra el funcionamiento de la API, consultas r
 
 **4. [/Datasets](Datasets/):** Almacena los datasets utilizados en una versión limpia y procesada de los mismos.<br />
 
-**4. [/Video](Video/):** Contiene el video explicativo del proyecto.<br />
+**5. [/Video](Video/):** Contiene el video explicativo del proyecto.<br />
 <br />
 
 ## Ejecutar la API (en su máquina local) <br />
@@ -52,12 +52,12 @@ git@github.com:JohannaRangel/Proyecto_Individual_1_MLOps.git
 ```
 python3 -m venv <nombre_del_entonto>
 ```
-3.Vaya al directorio del entorno virtual y actívelo<br />
-3.1. Para Windows:
+3. Vaya al directorio del entorno virtual y actívelo<br />
+- 3.1. Para Windows:
 ```
 Scripts/activate
 ```
-3.2. Para Linux/Mac:
+- 3.2. Para Linux/Mac:
 ```
 bin/activate
 ```
@@ -66,4 +66,6 @@ bin/activate
 pip install -r requirements.txt
 ```
 5. Ejecute la API con uvicorn<br />
+```
 uvicorn main:app --reload
+```
