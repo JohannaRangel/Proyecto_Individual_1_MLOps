@@ -34,7 +34,7 @@ Grabé un video explicativo que muestra el funcionamiento de la API, consultas r
 ## Estructura del Repositorio <br />
 **1. [/Notebooks](Notebooks/):** Contiene los Jupyter Notebooks donde se realizaron las extracciones, transformaciones y carga de datos (ETL) y análisis exploratorio de los datos (EDA).<br />
 
-**2. [/API](Api/):** Almacena el código correspondiente a la implementación de la API con FastAPI.<br />
+**2. [/API](API/):** Almacena el código correspondiente a la implementación de la API con FastAPI.<br />
 
 **3. [/Modelos](Modelos/):** Contiene el código y los resultados de los modelos de recomendación implementados.<br />
 
