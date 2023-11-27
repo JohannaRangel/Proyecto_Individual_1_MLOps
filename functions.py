@@ -31,6 +31,31 @@ import os
 
 # In[4]:
 
+def UserForGenre(genero:str):
+    consulta2 = pd.read_csv('UserForGenre.csv')
+    
+    # Filtrar el DataFrame por el género dado
+    genre_data = consulta2[consulta2['genres'] == genero]
+
+    # Encontrar al usuario con más horas jugadas para ese género
+    top_user = genre_data.loc[genre_data['hours_game'].idxmax()]['user_id']
+
+    # Crear una lista de acumulación de horas jugadas por año
+    hours_by_year = genre_data.groupby('year')['hours_game'].sum().reset_index()
+    hours_by_year = hours_by_year.rename(columns={'year': 'Año', 'hours_game': 'Horas'})
+    # Convertir las horas a enteros (int) dividiendo por 60
+    #hours_by_year['Horas'] = (hours_by_year['Horas'] / 60).astype(int)
+    hours_list = hours_by_year.to_dict(orient='records')
+
+    # Crear el diccionario de retorno
+    result = {
+        "Usuario con más horas jugadas para Género {}".format(genero): top_user,
+        "Horas jugadas": hours_list
+    }
+
+    return result
+
+
 def PlayTimeGenre(genero: str):
     result_df = pd.read_csv('PlayTimeGenre.csv')
 
@@ -87,4 +112,19 @@ def sentiment_analysis(empresa_desarrolladora: str):
     # Convertir a formato de diccionario
     response_data = result_df.set_index('developer').to_dict(orient='index')
     
+    return response_data
+
+# In[ ]:
+def recomendacion_usuario(item_id):
+    df = pd.read_csv('modelo_espec.csv')
+
+    # Filtrar el DataFrame por el año especificado
+    result_df = df[df['item_id'] == item_id]
+    
+    response_data = result_df['RecomendacionesTop5']
+    '''
+    response_data = [{"Puesto 1": result_df.iloc[0]['developer']},
+                    {"Puesto 2": result_df.iloc[1]['developer']},
+                    {"Puesto 3": result_df.iloc[2]['developer']}]
+    '''
     return response_data

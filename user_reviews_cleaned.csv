@@ -15,10 +15,10 @@ item_id,recommend,year,sentiment_analysis
 10,True,2014,2
 10,True,2014,0
 10,True,2014,2
-10,True,2015,2
 10,False,2015,2
 10,True,2015,2
 10,True,2015,1
+10,True,2015,2
 10,True,2015,2
 10,True,2015,2
 10,True,2015,2
@@ -43,6 +43,7 @@ item_id,recommend,year,sentiment_analysis
 10090,True,2014,2
 10090,True,2014,0
 10090,True,2014,2
+10090,True,2015,2
 10090,True,2015,2
 10090,True,2015,2
 10090,True,2015,2
@@ -83,6 +84,7 @@ item_id,recommend,year,sentiment_analysis
 10180,True,2012,2
 10180,True,2012,2
 10180,True,2012,2
+10180,True,2012,0
 10180,True,2013,2
 10180,True,2013,2
 10180,True,2013,0
@@ -172,6 +174,7 @@ item_id,recommend,year,sentiment_analysis
 102600,True,2011,2
 102600,True,2012,2
 102600,True,2014,2
+102600,True,2014,0
 102700,False,2013,0
 102700,True,2013,0
 102700,True,2013,2
@@ -179,7 +182,6 @@ item_id,recommend,year,sentiment_analysis
 102700,False,2014,1
 102700,False,2015,0
 102700,False,2015,1
-102700,True,2015,2
 102700,True,2015,2
 102820,False,2014,1
 102840,True,2013,1
@@ -210,6 +212,7 @@ item_id,recommend,year,sentiment_analysis
 104700,True,2013,2
 104700,True,2014,2
 104700,False,2014,2
+104700,True,2014,1
 104700,True,2014,2
 104700,True,2014,2
 104700,False,2014,1
@@ -264,6 +267,7 @@ item_id,recommend,year,sentiment_analysis
 104900,True,2014,0
 104900,True,2014,1
 104900,True,2014,2
+104900,True,2014,2
 104900,True,2014,1
 104900,False,2014,0
 104900,True,2014,1
@@ -303,7 +307,6 @@ item_id,recommend,year,sentiment_analysis
 104900,True,2014,2
 104900,True,2014,0
 104900,True,2015,2
-104900,True,2015,1
 104900,True,2015,1
 104900,True,2015,2
 104900,True,2015,2
@@ -425,6 +428,7 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2011,2
 105600,True,2011,2
 105600,True,2011,2
+105600,True,2011,2
 105600,True,2011,0
 105600,True,2011,2
 105600,True,2011,1
@@ -446,6 +450,7 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2012,0
 105600,True,2012,2
 105600,True,2012,2
+105600,True,2012,2
 105600,True,2012,1
 105600,True,2012,0
 105600,True,2012,2
@@ -486,13 +491,13 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2013,2
 105600,True,2013,2
 105600,True,2013,2
-105600,True,2013,2
 105600,True,2013,1
 105600,True,2013,2
 105600,True,2013,2
 105600,True,2013,2
 105600,True,2013,2
 105600,True,2013,2
+105600,False,2013,1
 105600,True,2013,2
 105600,True,2013,2
 105600,True,2013,2
@@ -510,6 +515,7 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2013,2
 105600,True,2013,2
 105600,True,2013,0
+105600,True,2013,2
 105600,True,2013,2
 105600,True,2013,0
 105600,False,2013,2
@@ -577,6 +583,7 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2014,2
 105600,True,2014,2
 105600,True,2014,2
+105600,True,2014,2
 105600,False,2014,0
 105600,True,2014,2
 105600,True,2014,2
@@ -586,7 +593,6 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2014,2
 105600,True,2014,2
 105600,True,2014,0
-105600,True,2014,2
 105600,True,2014,2
 105600,True,2014,2
 105600,True,2014,0
@@ -611,7 +617,7 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2014,2
 105600,True,2014,2
 105600,True,2014,2
-105600,True,2014,2
+105600,True,2014,0
 105600,True,2014,2
 105600,True,2014,2
 105600,True,2014,2
@@ -672,7 +678,6 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2014,2
 105600,True,2014,2
 105600,True,2014,2
-105600,True,2014,2
 105600,True,2014,0
 105600,True,2014,1
 105600,True,2014,2
@@ -763,6 +768,7 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2015,2
 105600,True,2015,2
 105600,True,2015,2
+105600,True,2015,2
 105600,True,2015,0
 105600,True,2015,2
 105600,True,2015,2
@@ -829,6 +835,7 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2015,2
 105600,True,2015,2
 105600,True,2015,2
+105600,True,2015,2
 105600,True,2015,1
 105600,True,2015,2
 105600,True,2015,2
@@ -870,7 +877,6 @@ item_id,recommend,year,sentiment_analysis
 105600,True,2015,2
 105600,True,2015,2
 105600,True,2015,1
-105600,True,2015,2
 105600,True,2015,2
 105600,True,2015,2
 105600,True,2015,2
@@ -1107,12 +1113,14 @@ item_id,recommend,year,sentiment_analysis
 107410,True,2014,2
 107410,True,2014,2
 107410,False,2014,2
+107410,True,2014,1
 107410,True,2014,2
 107410,False,2014,2
 107410,False,2014,1
 107410,True,2014,2
 107410,True,2014,2
 107410,True,2014,2
+107410,True,2014,0
 107410,True,2014,2
 107410,True,2014,2
 107410,True,2014,0
@@ -1120,7 +1128,6 @@ item_id,recommend,year,sentiment_analysis
 107410,True,2014,2
 107410,True,2014,2
 107410,True,2014,2
-107410,True,2014,2
 107410,True,2014,1
 107410,True,2014,2
 107410,True,2014,2
@@ -1166,7 +1173,6 @@ item_id,recommend,year,sentiment_analysis
 107410,True,2015,0
 107410,True,2015,2
 107410,True,2015,2
-107410,False,2015,0
 107410,True,2015,2
 107410,True,2015,2
 107410,True,2015,2
@@ -1197,6 +1203,7 @@ item_id,recommend,year,sentiment_analysis
 107410,True,2015,1
 107410,True,2015,1
 107410,True,2015,0
+107410,True,2015,2
 107410,False,2015,2
 107410,True,2015,2
 107410,True,2015,2
@@ -1332,7 +1339,6 @@ item_id,recommend,year,sentiment_analysis
 108710,True,2013,2
 108710,True,2013,2
 108710,True,2013,2
-108710,True,2013,2
 108710,True,2014,0
 108710,True,2014,2
 108710,True,2014,2
@@ -1345,6 +1351,7 @@ item_id,recommend,year,sentiment_analysis
 108800,True,2012,2
 108800,True,2013,2
 108800,True,2014,2
+108800,True,2014,1
 108800,True,2014,2
 108800,True,2014,2
 108800,True,2014,2
@@ -1373,6 +1380,7 @@ item_id,recommend,year,sentiment_analysis
 109600,True,2013,2
 109600,True,2013,2
 109600,True,2013,0
+109600,True,2013,2
 109600,True,2013,2
 109600,True,2013,2
 109600,True,2013,2
@@ -1409,10 +1417,10 @@ item_id,recommend,year,sentiment_analysis
 11020,True,2014,2
 11020,True,2014,2
 11020,True,2014,2
+11020,True,2014,1
 11020,True,2015,2
 11020,True,2015,2
 11020,True,2015,1
-11020,True,2015,2
 11020,True,2015,2
 110400,True,2015,2
 110800,True,2012,0
@@ -1583,6 +1591,7 @@ item_id,recommend,year,sentiment_analysis
 113200,True,2014,0
 113200,True,2014,1
 113200,True,2014,2
+113200,True,2014,1
 113200,True,2014,2
 113200,True,2014,0
 113200,True,2014,2
@@ -1621,7 +1630,6 @@ item_id,recommend,year,sentiment_analysis
 113200,True,2014,2
 113200,True,2014,2
 113200,True,2015,2
-113200,True,2015,2
 113200,True,2015,0
 113200,True,2015,0
 113200,True,2015,2
@@ -1646,6 +1654,7 @@ item_id,recommend,year,sentiment_analysis
 113400,True,2012,2
 113400,True,2012,0
 113400,True,2013,1
+113400,True,2013,2
 113400,True,2013,2
 113400,True,2013,2
 113400,False,2013,2
@@ -1709,7 +1718,6 @@ item_id,recommend,year,sentiment_analysis
 113400,False,2015,0
 113400,True,2015,2
 113400,True,2015,2
-113400,True,2015,2
 113400,False,2015,0
 113400,False,2015,0
 113400,False,2015,2
@@ -1726,7 +1734,6 @@ item_id,recommend,year,sentiment_analysis
 113400,True,2015,2
 113400,False,2015,0
 113400,True,2015,2
-113420,True,2012,2
 113420,True,2012,2
 113420,True,2012,2
 113420,True,2012,0
@@ -1974,7 +1981,6 @@ item_id,recommend,year,sentiment_analysis
 1250,True,2012,2
 1250,True,2012,2
 1250,True,2012,0
-1250,True,2012,1
 1250,True,2012,2
 1250,True,2012,0
 1250,True,2012,0
@@ -1998,7 +2004,6 @@ item_id,recommend,year,sentiment_analysis
 1250,True,2013,2
 1250,True,2013,2
 1250,True,2013,0
-1250,True,2013,2
 1250,True,2013,2
 1250,True,2013,0
 1250,True,2013,2
@@ -2060,6 +2065,7 @@ item_id,recommend,year,sentiment_analysis
 1250,True,2014,2
 1250,True,2014,2
 1250,True,2014,2
+1250,True,2014,2
 1250,True,2014,0
 1250,True,2014,1
 1250,True,2014,2
@@ -2088,7 +2094,6 @@ item_id,recommend,year,sentiment_analysis
 1250,True,2014,2
 1250,True,2014,0
 1250,True,2014,1
-1250,True,2014,2
 1250,True,2014,2
 1250,True,2014,2
 1250,True,2014,2
@@ -2352,7 +2357,6 @@ item_id,recommend,year,sentiment_analysis
 16720,True,2014,2
 16730,False,2014,0
 16730,True,2014,2
-16730,True,2014,2
 16730,True,2015,2
 16730,True,2015,0
 16810,True,2013,0
@@ -2365,6 +2369,7 @@ item_id,recommend,year,sentiment_analysis
 17020,True,2014,1
 17020,True,2014,2
 17020,True,2015,2
+17080,True,2012,2
 17080,True,2012,2
 17080,True,2012,2
 17080,True,2012,1
@@ -2443,7 +2448,6 @@ item_id,recommend,year,sentiment_analysis
 17390,True,2014,2
 17390,True,2014,2
 17390,True,2014,2
-17390,True,2014,2
 17390,False,2015,0
 17390,False,2015,2
 17390,True,2015,2
@@ -2454,7 +2458,6 @@ item_id,recommend,year,sentiment_analysis
 17410,True,2010,0
 17410,True,2012,2
 17410,True,2012,2
-17410,True,2012,1
 17410,True,2012,2
 17410,True,2012,2
 17410,True,2012,0
@@ -2484,7 +2487,6 @@ item_id,recommend,year,sentiment_analysis
 17410,True,2014,2
 17410,True,2014,2
 17410,True,2014,0
-17410,True,2014,2
 17410,True,2014,2
 17410,True,2014,2
 17410,True,2014,0
@@ -2524,7 +2526,6 @@ item_id,recommend,year,sentiment_analysis
 17460,True,2013,2
 17460,True,2013,2
 17460,True,2013,2
-17460,True,2013,2
 17460,True,2014,2
 17460,True,2014,2
 17460,True,2014,1
@@ -2542,7 +2543,6 @@ item_id,recommend,year,sentiment_analysis
 17470,True,2014,2
 17470,True,2014,2
 17470,True,2015,0
-17470,True,2015,2
 17470,True,2015,1
 17470,True,2015,0
 17470,True,2015,0
@@ -2569,7 +2569,6 @@ item_id,recommend,year,sentiment_analysis
 17500,True,2014,2
 17500,True,2014,2
 17500,True,2014,2
-17500,False,2015,0
 17500,True,2015,0
 17500,True,2015,2
 17510,True,2012,2
@@ -2581,7 +2580,6 @@ item_id,recommend,year,sentiment_analysis
 17520,True,2013,2
 17520,True,2014,1
 17520,True,2014,2
-17520,True,2014,1
 17520,True,2014,2
 17520,False,2014,2
 17520,True,2014,2
@@ -2594,6 +2592,7 @@ item_id,recommend,year,sentiment_analysis
 17520,True,2015,2
 17520,True,2015,2
 17520,True,2015,2
+17550,True,2014,2
 17570,True,2012,0
 17570,True,2013,2
 17570,True,2014,2
@@ -2624,13 +2623,11 @@ item_id,recommend,year,sentiment_analysis
 18120,True,2013,2
 1840,True,2012,2
 1840,True,2012,0
-1840,True,2012,1
 1840,True,2012,2
 1840,True,2012,0
 1840,True,2012,2
 1840,True,2012,2
 1840,True,2013,2
-1840,True,2013,1
 1840,True,2013,2
 1840,True,2013,2
 1840,True,2013,2
@@ -2652,6 +2649,7 @@ item_id,recommend,year,sentiment_analysis
 1840,True,2014,2
 1840,True,2014,2
 1840,True,2014,2
+1840,True,2014,2
 1840,True,2014,0
 1840,True,2014,2
 1840,True,2014,2
@@ -2664,7 +2662,6 @@ item_id,recommend,year,sentiment_analysis
 1840,True,2014,2
 1840,True,2014,2
 1840,True,2014,1
-1840,True,2014,2
 1840,True,2014,2
 1840,True,2014,2
 1840,True,2014,2
@@ -2705,6 +2702,7 @@ item_id,recommend,year,sentiment_analysis
 1840,True,2015,0
 18500,True,2013,0
 18500,True,2014,2
+18500,True,2015,2
 18700,False,2011,0
 18700,False,2011,0
 18700,True,2015,2
@@ -2724,6 +2722,7 @@ item_id,recommend,year,sentiment_analysis
 19680,True,2015,2
 19680,False,2015,0
 19680,True,2015,2
+19830,True,2014,2
 19900,True,2013,2
 19900,False,2014,2
 19900,True,2014,0
@@ -2820,6 +2819,7 @@ item_id,recommend,year,sentiment_analysis
 200210,True,2014,2
 200210,False,2014,0
 200210,True,2014,1
+200210,True,2014,2
 200210,True,2014,0
 200210,True,2014,0
 200210,True,2014,2
@@ -2879,6 +2879,7 @@ item_id,recommend,year,sentiment_analysis
 200210,False,2015,0
 200210,True,2015,2
 200210,True,2015,0
+200210,False,2015,0
 200210,True,2015,2
 200210,True,2015,2
 200210,True,2015,2
@@ -2900,7 +2901,6 @@ item_id,recommend,year,sentiment_analysis
 200210,True,2015,2
 200210,True,2015,2
 200210,True,2015,2
-200210,True,2015,1
 200210,True,2015,2
 200210,True,2015,2
 200210,False,2015,0
@@ -2934,7 +2934,6 @@ item_id,recommend,year,sentiment_analysis
 200260,True,2013,2
 200260,True,2013,2
 200260,True,2013,0
-200260,True,2013,2
 200260,True,2013,2
 200260,True,2014,2
 200260,True,2014,1
@@ -3307,7 +3306,6 @@ item_id,recommend,year,sentiment_analysis
 202170,True,2015,2
 202170,True,2015,2
 202170,True,2015,1
-202181,False,2014,0
 202200,True,2012,2
 202200,True,2013,2
 202200,True,2014,2
@@ -3408,7 +3406,6 @@ item_id,recommend,year,sentiment_analysis
 202970,True,2015,1
 202970,True,2015,1
 202970,True,2015,1
-202970,True,2015,0
 203140,True,2013,2
 203140,True,2013,0
 203140,True,2013,2
@@ -3451,7 +3448,6 @@ item_id,recommend,year,sentiment_analysis
 203140,True,2015,0
 203140,True,2015,2
 203140,False,2015,2
-203140,True,2015,1
 203140,True,2015,2
 203140,True,2015,2
 203140,True,2015,2
@@ -3529,7 +3525,6 @@ item_id,recommend,year,sentiment_analysis
 203160,True,2014,1
 203160,True,2014,1
 203160,True,2014,2
-203160,True,2014,1
 203160,True,2014,2
 203160,True,2014,2
 203160,True,2014,2
@@ -3697,6 +3692,7 @@ item_id,recommend,year,sentiment_analysis
 203830,True,2014,2
 203850,True,2012,2
 203850,True,2012,2
+203850,True,2012,2
 203850,True,2013,1
 204030,True,2013,1
 204030,True,2014,2
@@ -3758,6 +3754,7 @@ item_id,recommend,year,sentiment_analysis
 204240,True,2014,2
 204240,True,2014,2
 204240,True,2015,2
+204300,True,2012,2
 204300,True,2012,2
 204300,True,2012,2
 204300,True,2013,2
@@ -3863,7 +3860,6 @@ item_id,recommend,year,sentiment_analysis
 204300,True,2015,2
 204300,True,2015,2
 204300,True,2015,0
-204300,True,2015,2
 204300,True,2015,2
 204300,True,2015,2
 204300,True,2015,2
@@ -3974,6 +3970,7 @@ item_id,recommend,year,sentiment_analysis
 204360,True,2015,2
 204360,True,2015,2
 204360,True,2015,2
+204360,True,2015,1
 204360,True,2015,2
 204360,True,2015,2
 204360,True,2015,2
@@ -4005,7 +4002,6 @@ item_id,recommend,year,sentiment_analysis
 204450,True,2013,2
 204450,True,2013,2
 204450,True,2013,2
-204450,True,2014,2
 204450,True,2014,2
 204450,True,2014,2
 204450,True,2014,2
@@ -4055,6 +4051,7 @@ item_id,recommend,year,sentiment_analysis
 204880,True,2014,2
 204880,True,2014,2
 204880,True,2014,0
+204880,True,2014,2
 204880,True,2015,2
 204880,True,2015,2
 204880,True,2015,2
@@ -4124,6 +4121,7 @@ item_id,recommend,year,sentiment_analysis
 205100,True,2014,0
 205100,True,2014,2
 205100,True,2014,0
+205100,True,2014,2
 205100,True,2014,2
 205100,True,2014,2
 205100,True,2014,2
@@ -4371,11 +4369,14 @@ item_id,recommend,year,sentiment_analysis
 206420,True,2014,2
 206420,True,2014,2
 206420,True,2014,2
+206420,True,2014,0
 206420,True,2014,2
 206420,True,2014,2
 206420,True,2014,2
 206420,True,2014,2
 206420,False,2014,2
+206420,True,2014,2
+206420,True,2014,2
 206420,True,2014,2
 206420,True,2014,2
 206420,True,2014,2
@@ -4589,7 +4590,6 @@ item_id,recommend,year,sentiment_analysis
 207140,True,2014,2
 207140,True,2014,2
 207140,True,2014,2
-207140,True,2014,2
 207140,False,2014,0
 207140,True,2014,2
 207140,True,2014,2
@@ -4610,6 +4610,7 @@ item_id,recommend,year,sentiment_analysis
 207140,True,2015,2
 207140,True,2015,2
 207140,True,2015,1
+207140,True,2015,2
 207140,True,2015,2
 207140,True,2015,2
 207140,True,2015,2
@@ -4644,7 +4645,6 @@ item_id,recommend,year,sentiment_analysis
 207210,True,2014,2
 207230,False,2013,0
 207230,False,2013,2
-207230,True,2013,2
 207230,True,2013,2
 207230,True,2013,2
 207230,False,2014,0
@@ -4852,7 +4852,6 @@ item_id,recommend,year,sentiment_analysis
 208090,True,2014,2
 208090,True,2014,0
 208090,True,2014,0
-208090,True,2014,0
 208090,True,2014,2
 208090,True,2014,2
 208090,True,2014,2
@@ -4862,6 +4861,7 @@ item_id,recommend,year,sentiment_analysis
 208090,False,2014,2
 208090,True,2014,2
 208090,True,2014,2
+208090,True,2014,2
 208090,True,2014,0
 208090,True,2014,1
 208090,True,2014,2
@@ -4952,7 +4952,6 @@ item_id,recommend,year,sentiment_analysis
 208090,True,2014,2
 208090,True,2014,2
 208090,True,2014,0
-208090,True,2014,1
 208090,True,2014,2
 208090,True,2014,1
 208090,True,2014,1
@@ -4981,7 +4980,6 @@ item_id,recommend,year,sentiment_analysis
 208090,True,2014,2
 208090,True,2014,2
 208090,False,2014,0
-208090,True,2014,2
 208090,True,2014,2
 208090,True,2014,2
 208090,True,2014,2
@@ -5091,6 +5089,7 @@ item_id,recommend,year,sentiment_analysis
 208362,False,2015,1
 20840,True,2014,2
 208480,True,2012,1
+208480,True,2013,2
 208480,True,2013,2
 208480,True,2013,2
 208480,False,2013,2
@@ -5286,22 +5285,22 @@ item_id,recommend,year,sentiment_analysis
 209080,True,2013,2
 209080,False,2014,0
 209080,True,2014,1
-209080,True,2014,0
-209080,True,2014,2
-209080,True,2014,2
 209080,True,2014,2
 209080,True,2014,0
 209080,True,2014,2
 209080,True,2014,2
 209080,True,2014,2
-209080,True,2014,2
-209080,True,2014,2
-209080,True,2014,2
-209080,True,2014,2
-209080,True,2014,2
-209080,True,2014,2
-209080,True,2014,2
 209080,True,2014,0
+209080,True,2014,2
+209080,True,2014,2
+209080,True,2014,2
+209080,True,2014,2
+209080,True,2014,2
+209080,True,2014,2
+209080,True,2014,2
+209080,True,2014,2
+209080,True,2014,2
+209080,True,2014,2
 209080,True,2014,2
 209080,True,2014,2
 209080,True,2014,2
@@ -5315,7 +5314,6 @@ item_id,recommend,year,sentiment_analysis
 209080,True,2014,0
 209080,True,2014,2
 209080,False,2014,2
-209080,True,2014,2
 209080,True,2014,2
 209080,True,2014,2
 209080,True,2014,0
@@ -5372,9 +5370,7 @@ item_id,recommend,year,sentiment_analysis
 209160,True,2014,2
 209160,False,2014,0
 209160,False,2014,0
-209160,False,2014,0
 209160,False,2014,2
-209160,True,2014,1
 209160,False,2014,0
 209160,True,2014,2
 209160,False,2014,2
@@ -5415,6 +5411,7 @@ item_id,recommend,year,sentiment_analysis
 209160,True,2015,2
 209160,True,2015,2
 209160,False,2015,0
+209160,True,2015,1
 209160,False,2015,0
 209160,True,2015,2
 209160,False,2015,0
@@ -5524,6 +5521,7 @@ item_id,recommend,year,sentiment_analysis
 209650,True,2015,2
 209650,True,2015,2
 209650,True,2015,2
+209650,True,2015,1
 209650,True,2015,2
 209650,True,2015,2
 209650,False,2015,0
@@ -5568,7 +5566,6 @@ item_id,recommend,year,sentiment_analysis
 209870,True,2013,2
 209870,True,2013,2
 209870,True,2013,1
-209870,True,2013,2
 209870,True,2013,0
 209870,True,2013,2
 209870,True,2013,2
@@ -5644,7 +5641,6 @@ item_id,recommend,year,sentiment_analysis
 209870,True,2015,2
 209870,True,2015,2
 209870,True,2015,2
-209870,True,2015,2
 209870,False,2015,0
 209870,True,2015,1
 209870,False,2015,0
@@ -5689,7 +5685,6 @@ item_id,recommend,year,sentiment_analysis
 210770,True,2014,2
 210770,True,2014,2
 210770,True,2014,1
-210770,True,2014,2
 210770,True,2014,2
 210770,True,2014,2
 210770,True,2014,1
@@ -5778,6 +5773,7 @@ item_id,recommend,year,sentiment_analysis
 211420,True,2014,1
 211420,True,2014,2
 211420,True,2014,2
+211420,True,2014,0
 211420,False,2014,0
 211420,True,2014,1
 211420,True,2014,0
@@ -5808,7 +5804,6 @@ item_id,recommend,year,sentiment_analysis
 211420,False,2014,0
 211420,True,2014,0
 211420,False,2014,2
-211420,True,2014,0
 211420,False,2014,0
 211420,True,2014,0
 211420,True,2014,2
@@ -5906,7 +5901,6 @@ item_id,recommend,year,sentiment_analysis
 211720,True,2014,2
 211720,True,2015,1
 211720,True,2015,2
-211720,True,2015,2
 211740,True,2014,2
 211780,True,2015,2
 211820,True,2013,2
@@ -5988,6 +5982,7 @@ item_id,recommend,year,sentiment_analysis
 211820,True,2013,2
 211820,True,2013,2
 211820,True,2013,2
+211820,True,2013,2
 211820,True,2013,1
 211820,True,2013,2
 211820,True,2013,2
@@ -6020,6 +6015,7 @@ item_id,recommend,year,sentiment_analysis
 211820,True,2014,2
 211820,True,2014,0
 211820,False,2014,2
+211820,True,2014,2
 211820,True,2014,2
 211820,True,2014,1
 211820,True,2014,1
@@ -6174,7 +6170,6 @@ item_id,recommend,year,sentiment_analysis
 211820,True,2015,2
 211820,True,2015,2
 211820,True,2015,0
-211820,True,2015,1
 211820,True,2015,2
 211820,True,2015,2
 211820,True,2015,2
@@ -6209,7 +6204,6 @@ item_id,recommend,year,sentiment_analysis
 212070,True,2014,2
 212070,True,2014,2
 212070,True,2014,2
-212070,True,2014,2
 212070,False,2014,0
 212070,True,2014,2
 212070,True,2014,2
@@ -6230,11 +6224,13 @@ item_id,recommend,year,sentiment_analysis
 212070,False,2015,0
 212070,True,2015,2
 212160,True,2013,2
+212160,True,2013,0
 212160,True,2014,2
 212160,True,2014,1
 212160,False,2014,2
 212160,True,2014,2
 212160,False,2014,2
+212160,True,2014,2
 212160,True,2014,2
 212160,True,2014,2
 212160,True,2014,2
@@ -6292,7 +6288,6 @@ item_id,recommend,year,sentiment_analysis
 212480,True,2013,1
 212480,True,2013,2
 212480,True,2013,1
-212480,True,2013,2
 212480,True,2013,2
 212480,True,2013,2
 212480,True,2013,2
@@ -6373,6 +6368,8 @@ item_id,recommend,year,sentiment_analysis
 212680,True,2014,2
 212680,True,2014,2
 212680,True,2014,0
+212680,True,2014,1
+212680,True,2014,2
 212680,True,2014,2
 212680,True,2014,2
 212680,True,2014,2
@@ -6516,6 +6513,7 @@ item_id,recommend,year,sentiment_analysis
 213610,True,2015,2
 213610,True,2015,2
 213610,True,2015,0
+213650,True,2013,0
 213650,True,2013,2
 213650,True,2013,2
 213650,True,2013,2
@@ -6905,7 +6903,6 @@ item_id,recommend,year,sentiment_analysis
 216150,False,2014,0
 216150,True,2014,0
 216150,True,2014,0
-216150,True,2014,0
 216150,False,2014,2
 216150,True,2014,1
 216150,False,2015,0
@@ -6951,6 +6948,7 @@ item_id,recommend,year,sentiment_analysis
 21660,True,2011,2
 21660,False,2014,2
 21660,True,2014,2
+216890,True,2013,2
 216890,True,2014,0
 21690,False,2013,2
 21690,True,2013,2
@@ -7026,6 +7024,7 @@ item_id,recommend,year,sentiment_analysis
 218230,True,2013,0
 218230,True,2013,2
 218230,True,2013,1
+218230,True,2013,1
 218230,True,2013,0
 218230,True,2013,2
 218230,True,2013,2
@@ -7042,12 +7041,11 @@ item_id,recommend,year,sentiment_analysis
 218230,True,2013,2
 218230,True,2013,2
 218230,True,2013,2
-218230,True,2013,0
-218230,True,2013,2
 218230,True,2013,2
 218230,True,2013,0
 218230,True,2013,2
 218230,True,2013,2
+218230,True,2013,0
 218230,True,2013,2
 218230,True,2013,2
 218230,True,2013,2
@@ -7066,15 +7064,16 @@ item_id,recommend,year,sentiment_analysis
 218230,True,2013,2
 218230,True,2013,2
 218230,True,2013,2
-218230,True,2013,2
-218230,True,2013,2
-218230,True,2013,1
-218230,True,2013,1
 218230,True,2013,2
 218230,True,2013,2
 218230,True,2013,2
 218230,True,2013,2
 218230,True,2013,1
+218230,True,2013,1
+218230,True,2013,2
+218230,True,2013,2
+218230,True,2013,2
+218230,True,2013,2
 218230,True,2013,2
 218230,True,2013,2
 218230,False,2013,0
@@ -7108,7 +7107,9 @@ item_id,recommend,year,sentiment_analysis
 218230,True,2014,2
 218230,True,2014,2
 218230,True,2014,2
+218230,True,2014,2
 218230,True,2014,0
+218230,True,2014,2
 218230,True,2014,2
 218230,True,2014,2
 218230,True,2014,2
@@ -7140,6 +7141,7 @@ item_id,recommend,year,sentiment_analysis
 218230,True,2014,2
 218230,True,2014,2
 218230,True,2014,0
+218230,True,2014,2
 218230,True,2014,1
 218230,True,2014,2
 218230,True,2014,1
@@ -7286,7 +7288,6 @@ item_id,recommend,year,sentiment_analysis
 218470,False,2014,1
 218470,False,2014,0
 218470,False,2014,0
-218470,True,2014,2
 218470,True,2014,0
 218470,False,2014,2
 218470,False,2014,2
@@ -7330,6 +7331,7 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2013,2
 218620,False,2013,2
 218620,True,2013,2
+218620,True,2013,1
 218620,True,2013,2
 218620,True,2013,2
 218620,True,2013,2
@@ -7381,6 +7383,7 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2014,2
 218620,True,2014,2
 218620,False,2014,2
+218620,True,2014,1
 218620,True,2014,2
 218620,True,2014,2
 218620,True,2014,0
@@ -7435,6 +7438,7 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2014,2
 218620,True,2014,2
 218620,True,2014,2
+218620,False,2014,0
 218620,False,2014,2
 218620,True,2014,2
 218620,True,2014,0
@@ -7493,7 +7497,6 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2014,2
 218620,True,2014,2
 218620,True,2014,2
-218620,True,2014,1
 218620,True,2014,2
 218620,False,2014,2
 218620,False,2014,0
@@ -7502,6 +7505,7 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2014,1
 218620,True,2014,0
 218620,True,2014,2
+218620,True,2014,1
 218620,True,2014,2
 218620,True,2014,2
 218620,True,2014,1
@@ -7513,6 +7517,7 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2014,2
 218620,True,2014,0
 218620,True,2014,2
+218620,True,2014,1
 218620,True,2014,2
 218620,True,2014,2
 218620,True,2014,2
@@ -7551,6 +7556,7 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2014,2
 218620,True,2014,2
 218620,True,2014,0
+218620,True,2014,2
 218620,True,2014,2
 218620,True,2014,2
 218620,True,2014,2
@@ -7647,6 +7653,7 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2014,2
 218620,True,2014,1
 218620,True,2014,2
+218620,True,2014,1
 218620,True,2014,2
 218620,True,2014,1
 218620,True,2014,2
@@ -7695,14 +7702,12 @@ item_id,recommend,year,sentiment_analysis
 218620,False,2015,2
 218620,True,2015,2
 218620,True,2015,2
-218620,True,2015,2
 218620,True,2015,1
 218620,True,2015,2
 218620,False,2015,0
 218620,False,2015,0
 218620,True,2015,2
 218620,True,2015,0
-218620,True,2015,1
 218620,True,2015,2
 218620,False,2015,2
 218620,True,2015,2
@@ -7713,12 +7718,14 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2015,2
 218620,False,2015,2
 218620,False,2015,2
+218620,True,2015,2
 218620,True,2015,1
 218620,True,2015,2
 218620,True,2015,2
 218620,True,2015,1
 218620,True,2015,2
 218620,False,2015,2
+218620,True,2015,2
 218620,True,2015,2
 218620,True,2015,2
 218620,False,2015,0
@@ -7824,6 +7831,7 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2015,2
 218620,True,2015,0
 218620,True,2015,1
+218620,True,2015,2
 218620,False,2015,1
 218620,False,2015,0
 218620,False,2015,0
@@ -7862,7 +7870,6 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2015,2
 218620,True,2015,0
 218620,False,2015,0
-218620,True,2015,2
 218620,False,2015,2
 218620,True,2015,2
 218620,True,2015,2
@@ -8080,7 +8087,6 @@ item_id,recommend,year,sentiment_analysis
 218620,True,2015,2
 218620,True,2015,2
 218620,True,2015,1
-218620,False,2015,0
 218620,False,2015,2
 218620,False,2015,0
 218620,True,2015,2
@@ -8288,6 +8294,7 @@ item_id,recommend,year,sentiment_analysis
 219640,True,2013,2
 219640,True,2013,1
 219640,True,2013,2
+219640,True,2013,2
 219640,True,2013,0
 219640,True,2013,2
 219640,True,2013,2
@@ -8370,6 +8377,7 @@ item_id,recommend,year,sentiment_analysis
 219640,True,2014,2
 219640,True,2014,0
 219640,True,2014,1
+219640,True,2014,2
 219640,True,2014,2
 219640,True,2014,2
 219640,True,2014,1
@@ -8379,7 +8387,6 @@ item_id,recommend,year,sentiment_analysis
 219640,True,2015,2
 219640,True,2015,0
 219640,False,2015,0
-219640,True,2015,1
 219640,True,2015,2
 219640,True,2015,2
 219640,True,2015,0
@@ -8485,6 +8492,8 @@ item_id,recommend,year,sentiment_analysis
 219740,True,2014,2
 219740,True,2014,2
 219740,True,2014,2
+219740,True,2014,2
+219740,True,2014,0
 219740,True,2014,0
 219740,True,2014,2
 219740,True,2014,2
@@ -8676,6 +8685,7 @@ item_id,recommend,year,sentiment_analysis
 219990,True,2015,2
 219990,True,2015,2
 219990,True,2015,2
+219990,True,2015,2
 220,True,2011,2
 220,True,2011,2
 220,True,2011,2
@@ -8737,6 +8747,7 @@ item_id,recommend,year,sentiment_analysis
 220,True,2014,0
 220,True,2014,2
 220,False,2014,0
+220,True,2014,2
 220,True,2014,2
 220,True,2014,2
 220,True,2014,2
@@ -8949,7 +8960,6 @@ item_id,recommend,year,sentiment_analysis
 220200,True,2015,1
 220200,True,2015,2
 220200,True,2015,2
-220200,True,2015,2
 220200,True,2015,0
 220200,True,2015,2
 220200,True,2015,2
@@ -9004,7 +9014,6 @@ item_id,recommend,year,sentiment_analysis
 220240,True,2013,2
 220240,True,2013,2
 220240,True,2013,2
-220240,True,2013,2
 220240,True,2013,1
 220240,True,2014,2
 220240,True,2014,2
@@ -9020,6 +9029,7 @@ item_id,recommend,year,sentiment_analysis
 220240,True,2014,2
 220240,True,2014,2
 220240,True,2014,0
+220240,True,2014,2
 220240,True,2014,2
 220240,True,2014,1
 220240,True,2014,2
@@ -9100,13 +9110,13 @@ item_id,recommend,year,sentiment_analysis
 220440,True,2015,2
 220440,True,2015,2
 220440,True,2015,2
+220440,True,2015,2
 220460,True,2013,2
 220660,True,2014,0
 220660,False,2014,0
 220660,True,2015,2
 220700,True,2013,2
 220700,True,2013,2
-220700,True,2014,2
 220700,True,2014,2
 220700,True,2014,2
 220700,True,2014,2
@@ -9163,6 +9173,7 @@ item_id,recommend,year,sentiment_analysis
 221020,True,2015,2
 221020,False,2015,1
 221040,True,2014,0
+221040,True,2014,2
 221040,True,2014,2
 221040,True,2015,0
 221040,True,2015,2
@@ -9304,6 +9315,7 @@ item_id,recommend,year,sentiment_analysis
 221100,True,2014,0
 221100,True,2014,2
 221100,True,2014,2
+221100,True,2014,2
 221100,True,2014,1
 221100,True,2014,0
 221100,False,2014,0
@@ -9338,7 +9350,6 @@ item_id,recommend,year,sentiment_analysis
 221100,False,2014,1
 221100,True,2014,2
 221100,False,2014,0
-221100,True,2014,0
 221100,True,2014,2
 221100,True,2014,1
 221100,True,2014,2
@@ -9369,8 +9380,8 @@ item_id,recommend,year,sentiment_analysis
 221100,True,2014,2
 221100,True,2014,2
 221100,True,2014,0
-221100,True,2014,2
 221100,False,2014,0
+221100,True,2014,1
 221100,True,2014,0
 221100,False,2014,1
 221100,True,2014,0
@@ -9395,7 +9406,6 @@ item_id,recommend,year,sentiment_analysis
 221100,True,2014,2
 221100,True,2014,2
 221100,True,2014,2
-221100,True,2014,2
 221100,True,2014,1
 221100,False,2014,0
 221100,True,2014,2
@@ -9406,8 +9416,8 @@ item_id,recommend,year,sentiment_analysis
 221100,True,2014,1
 221100,True,2014,0
 221100,True,2014,0
-221100,True,2014,0
 221100,True,2014,2
+221100,True,2014,0
 221100,True,2014,0
 221100,True,2014,2
 221100,True,2014,2
@@ -9438,6 +9448,7 @@ item_id,recommend,year,sentiment_analysis
 221100,True,2014,0
 221100,True,2014,2
 221100,True,2014,1
+221100,True,2014,0
 221100,True,2014,0
 221100,True,2014,2
 221100,True,2014,0
@@ -9528,7 +9539,6 @@ item_id,recommend,year,sentiment_analysis
 221100,True,2014,1
 221100,True,2014,2
 221100,True,2014,0
-221100,True,2014,2
 221100,True,2014,2
 221100,True,2014,2
 221100,True,2014,2
@@ -9592,6 +9602,7 @@ item_id,recommend,year,sentiment_analysis
 221100,True,2014,2
 221100,True,2014,2
 221100,False,2014,1
+221100,True,2014,2
 221100,True,2014,2
 221100,True,2014,2
 221100,True,2014,2
@@ -9613,6 +9624,7 @@ item_id,recommend,year,sentiment_analysis
 221100,False,2015,0
 221100,True,2015,2
 221100,False,2015,0
+221100,False,2015,2
 221100,True,2015,0
 221100,True,2015,2
 221100,False,2015,0
@@ -9653,6 +9665,7 @@ item_id,recommend,year,sentiment_analysis
 221100,False,2015,2
 221100,False,2015,2
 221100,True,2015,2
+221100,True,2015,0
 221100,True,2015,2
 221100,True,2015,2
 221100,True,2015,0
@@ -9854,6 +9867,7 @@ item_id,recommend,year,sentiment_analysis
 221380,True,2015,1
 221380,True,2015,1
 221380,True,2015,2
+221380,True,2015,1
 221380,False,2015,2
 221380,True,2015,2
 221380,True,2015,1
@@ -9862,6 +9876,7 @@ item_id,recommend,year,sentiment_analysis
 221380,True,2015,2
 221380,True,2015,2
 221380,False,2015,0
+221380,True,2015,2
 221380,True,2015,2
 221380,True,2015,2
 221380,True,2015,2
@@ -9925,6 +9940,7 @@ item_id,recommend,year,sentiment_analysis
 221640,True,2013,2
 221640,False,2013,0
 221640,True,2013,2
+221640,True,2013,0
 221640,False,2013,0
 221640,True,2013,2
 221640,True,2013,2
@@ -9947,6 +9963,7 @@ item_id,recommend,year,sentiment_analysis
 221640,True,2014,2
 221640,True,2014,1
 221640,True,2014,2
+221640,True,2014,0
 221640,True,2014,0
 221640,True,2014,2
 221640,True,2014,1
@@ -10115,7 +10132,6 @@ item_id,recommend,year,sentiment_analysis
 221910,True,2015,2
 221910,True,2015,2
 221910,True,2015,2
-221910,True,2015,1
 221910,True,2015,2
 221910,True,2015,2
 221910,True,2015,2
@@ -10219,13 +10235,13 @@ item_id,recommend,year,sentiment_analysis
 222880,True,2014,2
 222880,True,2014,2
 222880,True,2014,2
-222880,True,2014,0
 222880,False,2014,0
 222880,True,2014,2
 222880,True,2014,2
 222880,True,2014,2
 222880,True,2014,2
 222880,True,2014,2
+222880,True,2014,0
 222880,True,2014,0
 222880,False,2014,2
 222880,True,2014,2
@@ -10319,6 +10335,7 @@ item_id,recommend,year,sentiment_analysis
 222880,True,2015,1
 222880,True,2015,2
 222880,True,2015,2
+222880,True,2015,2
 222880,False,2015,0
 222880,False,2015,1
 222880,True,2015,0
@@ -10363,6 +10380,7 @@ item_id,recommend,year,sentiment_analysis
 222900,False,2014,2
 222900,True,2014,2
 222900,True,2014,2
+222900,True,2014,2
 222900,True,2014,0
 222900,True,2014,2
 222900,True,2014,2
@@ -10377,6 +10395,7 @@ item_id,recommend,year,sentiment_analysis
 222900,True,2014,1
 222900,True,2014,2
 222900,True,2014,2
+222900,False,2015,0
 222900,False,2015,0
 222900,True,2015,2
 222900,False,2015,2
@@ -10432,7 +10451,6 @@ item_id,recommend,year,sentiment_analysis
 22320,True,2014,2
 22320,True,2014,2
 22320,True,2014,2
-22320,True,2014,2
 22320,True,2015,0
 22320,True,2015,0
 22320,True,2015,2
@@ -10477,7 +10495,6 @@ item_id,recommend,year,sentiment_analysis
 223470,True,2014,0
 223470,True,2014,2
 223470,True,2014,0
-223470,True,2014,1
 223470,True,2014,2
 223470,True,2014,0
 223470,True,2014,2
@@ -10711,7 +10728,6 @@ item_id,recommend,year,sentiment_analysis
 22380,True,2012,2
 22380,True,2012,2
 22380,True,2012,2
-22380,True,2012,2
 22380,True,2013,2
 22380,True,2013,2
 22380,True,2013,2
@@ -10773,6 +10789,7 @@ item_id,recommend,year,sentiment_analysis
 22380,True,2014,1
 22380,True,2014,2
 22380,True,2014,1
+22380,True,2014,2
 22380,True,2014,0
 22380,True,2014,0
 22380,True,2015,2
@@ -10852,6 +10869,7 @@ item_id,recommend,year,sentiment_analysis
 224060,True,2015,2
 224060,True,2015,2
 224060,True,2015,2
+224060,True,2015,1
 224260,True,2013,2
 224260,True,2013,2
 224260,True,2013,2
@@ -10894,7 +10912,6 @@ item_id,recommend,year,sentiment_analysis
 224260,True,2013,2
 224260,True,2013,0
 224260,True,2013,0
-224260,True,2013,1
 224260,True,2013,2
 224260,True,2013,2
 224260,True,2013,0
@@ -10908,7 +10925,7 @@ item_id,recommend,year,sentiment_analysis
 224260,True,2013,2
 224260,True,2013,0
 224260,True,2013,2
-224260,True,2013,2
+224260,True,2013,1
 224260,True,2013,2
 224260,True,2013,2
 224260,True,2013,2
@@ -11145,7 +11162,6 @@ item_id,recommend,year,sentiment_analysis
 224540,True,2014,2
 224540,True,2014,2
 224540,False,2014,2
-224540,True,2014,2
 224540,True,2014,2
 224540,True,2014,1
 224540,False,2014,0
@@ -11394,7 +11410,6 @@ item_id,recommend,year,sentiment_analysis
 225540,True,2015,2
 225540,True,2015,2
 225540,True,2015,2
-225540,True,2015,1
 225540,False,2015,0
 225540,True,2015,2
 225540,False,2015,2
@@ -11491,6 +11506,7 @@ item_id,recommend,year,sentiment_analysis
 226320,True,2014,1
 226320,False,2014,2
 226320,True,2014,2
+226320,True,2014,1
 226320,True,2014,2
 226320,False,2014,0
 226320,True,2014,0
@@ -11548,7 +11564,6 @@ item_id,recommend,year,sentiment_analysis
 226700,True,2014,2
 226700,False,2014,0
 226700,True,2014,0
-226700,False,2014,1
 226700,False,2014,1
 226700,True,2014,0
 226700,False,2014,0
@@ -11830,7 +11845,6 @@ item_id,recommend,year,sentiment_analysis
 227700,True,2014,2
 227700,True,2014,2
 227700,True,2014,2
-227700,True,2014,2
 227700,False,2014,0
 227700,False,2014,0
 227700,True,2014,2
@@ -11993,7 +12007,6 @@ item_id,recommend,year,sentiment_analysis
 227940,True,2015,0
 227940,False,2015,2
 227940,True,2015,2
-227940,True,2015,1
 227940,True,2015,2
 227940,True,2015,2
 227940,True,2015,2
@@ -12126,7 +12139,6 @@ item_id,recommend,year,sentiment_analysis
 228880,True,2015,2
 228880,True,2015,0
 228880,True,2015,2
-228940,True,2014,2
 228940,True,2014,1
 228960,True,2015,2
 2290,True,2014,2
@@ -12267,7 +12279,6 @@ item_id,recommend,year,sentiment_analysis
 230410,True,2013,2
 230410,True,2013,2
 230410,True,2013,2
-230410,True,2013,2
 230410,True,2013,0
 230410,True,2013,2
 230410,True,2013,0
@@ -12280,7 +12291,6 @@ item_id,recommend,year,sentiment_analysis
 230410,True,2014,2
 230410,True,2014,2
 230410,True,2014,2
-230410,True,2014,0
 230410,True,2014,2
 230410,True,2014,0
 230410,True,2014,2
@@ -12293,7 +12303,7 @@ item_id,recommend,year,sentiment_analysis
 230410,True,2014,2
 230410,True,2014,2
 230410,True,2014,2
-230410,True,2014,2
+230410,True,2014,1
 230410,True,2014,2
 230410,True,2014,2
 230410,True,2014,2
@@ -12306,6 +12316,11 @@ item_id,recommend,year,sentiment_analysis
 230410,True,2014,2
 230410,True,2014,0
 230410,True,2014,2
+230410,True,2014,1
+230410,True,2014,2
+230410,True,2014,2
+230410,True,2014,2
+230410,True,2014,1
 230410,True,2014,2
 230410,True,2014,2
 230410,True,2014,2
@@ -12320,9 +12335,7 @@ item_id,recommend,year,sentiment_analysis
 230410,True,2014,2
 230410,True,2014,2
 230410,True,2014,2
-230410,True,2014,2
-230410,True,2014,2
-230410,True,2014,2
+230410,True,2014,0
 230410,True,2014,2
 230410,True,2014,2
 230410,True,2014,2
@@ -12398,6 +12411,7 @@ item_id,recommend,year,sentiment_analysis
 230410,True,2014,2
 230410,True,2014,2
 230410,True,2014,2
+230410,True,2014,2
 230410,True,2014,0
 230410,True,2014,2
 230410,True,2014,2
@@ -12418,6 +12432,7 @@ item_id,recommend,year,sentiment_analysis
 230410,True,2014,1
 230410,True,2014,1
 230410,True,2014,0
+230410,True,2014,2
 230410,True,2014,2
 230410,True,2014,2
 230410,True,2014,2
@@ -12506,7 +12521,6 @@ item_id,recommend,year,sentiment_analysis
 230410,False,2015,1
 230410,True,2015,2
 230410,True,2015,2
-230410,True,2015,2
 230410,True,2015,0
 230410,True,2015,2
 230410,True,2015,2
@@ -12590,6 +12604,7 @@ item_id,recommend,year,sentiment_analysis
 230410,True,2015,2
 230410,True,2015,0
 230410,True,2015,0
+230410,True,2015,2
 230410,True,2015,2
 230410,True,2015,1
 230410,True,2015,2
@@ -12643,7 +12658,6 @@ item_id,recommend,year,sentiment_analysis
 231160,True,2014,2
 231160,True,2014,2
 231180,True,2013,2
-23120,True,2011,2
 231250,True,2013,1
 231310,True,2013,2
 231310,True,2014,1
@@ -12814,7 +12828,6 @@ item_id,recommend,year,sentiment_analysis
 232090,True,2015,2
 232090,False,2015,1
 232090,True,2015,0
-232090,True,2015,2
 232090,False,2015,0
 232090,True,2015,2
 232090,True,2015,0
@@ -12859,7 +12872,6 @@ item_id,recommend,year,sentiment_analysis
 232430,True,2015,2
 232430,True,2015,2
 232430,True,2015,2
-232430,False,2015,0
 232430,False,2015,0
 232430,False,2015,2
 232430,True,2015,2
@@ -13043,6 +13055,7 @@ item_id,recommend,year,sentiment_analysis
 233270,True,2013,0
 233270,True,2013,2
 233270,True,2013,2
+233270,True,2014,2
 233270,True,2014,1
 233270,False,2014,0
 233270,True,2014,1
@@ -13103,6 +13116,7 @@ item_id,recommend,year,sentiment_analysis
 233450,True,2014,2
 233450,True,2014,2
 233450,True,2014,2
+233450,True,2014,2
 233450,True,2014,0
 233450,True,2014,2
 233450,True,2014,2
@@ -13126,7 +13140,6 @@ item_id,recommend,year,sentiment_analysis
 233450,True,2015,2
 233450,True,2015,2
 233450,True,2015,1
-233450,True,2015,2
 233450,True,2015,2
 233450,True,2015,2
 233450,True,2015,1
@@ -13184,7 +13197,6 @@ item_id,recommend,year,sentiment_analysis
 233610,True,2015,1
 233610,True,2015,2
 233610,True,2015,2
-233610,True,2015,2
 233630,True,2014,2
 233630,True,2014,2
 233630,True,2014,2
@@ -13203,6 +13215,7 @@ item_id,recommend,year,sentiment_analysis
 233720,True,2013,2
 233720,True,2013,0
 233720,True,2013,2
+233720,True,2013,1
 233720,True,2013,2
 233720,True,2013,2
 233720,True,2013,1
@@ -13341,7 +13354,6 @@ item_id,recommend,year,sentiment_analysis
 234140,True,2015,2
 234140,True,2015,2
 234140,True,2015,2
-234140,True,2015,2
 234140,True,2015,0
 234140,True,2015,2
 234160,True,2014,0
@@ -13368,7 +13380,6 @@ item_id,recommend,year,sentiment_analysis
 234310,True,2014,2
 234310,True,2014,2
 234310,True,2014,2
-234310,False,2014,0
 234310,True,2015,2
 234330,False,2013,0
 234330,True,2013,2
@@ -13391,7 +13402,6 @@ item_id,recommend,year,sentiment_analysis
 23450,True,2014,1
 23450,True,2014,2
 234530,True,2013,2
-234530,True,2013,2
 234530,False,2014,2
 234530,True,2014,1
 234530,True,2014,0
@@ -13402,7 +13412,6 @@ item_id,recommend,year,sentiment_analysis
 234630,True,2015,2
 234630,True,2015,2
 234630,True,2015,2
-234630,False,2015,1
 234630,False,2015,0
 234630,True,2015,2
 234630,True,2015,2
@@ -13416,7 +13425,6 @@ item_id,recommend,year,sentiment_analysis
 234650,True,2014,2
 234650,True,2015,2
 234650,True,2015,0
-234670,True,2014,2
 234670,True,2014,2
 234670,True,2014,2
 234670,True,2014,2
@@ -13508,7 +13516,6 @@ item_id,recommend,year,sentiment_analysis
 235460,True,2015,2
 235460,True,2015,2
 235460,True,2015,2
-235460,True,2015,1
 235460,True,2015,1
 235460,True,2015,1
 235540,True,2015,2
@@ -13652,7 +13659,6 @@ item_id,recommend,year,sentiment_analysis
 236370,True,2014,2
 236370,True,2014,2
 236370,True,2014,2
-236370,True,2014,2
 236370,False,2014,2
 236370,True,2014,2
 236370,True,2014,2
@@ -13736,8 +13742,10 @@ item_id,recommend,year,sentiment_analysis
 236390,True,2014,2
 236390,True,2014,1
 236390,True,2014,2
+236390,True,2014,2
 236390,True,2014,0
 236390,False,2014,0
+236390,True,2014,2
 236390,True,2014,2
 236390,True,2014,2
 236390,True,2014,2
@@ -13772,6 +13780,7 @@ item_id,recommend,year,sentiment_analysis
 236390,True,2014,2
 236390,True,2014,2
 236390,True,2014,2
+236390,True,2014,1
 236390,True,2014,2
 236390,True,2014,2
 236390,False,2014,2
@@ -14040,7 +14049,6 @@ item_id,recommend,year,sentiment_analysis
 236850,True,2014,2
 236850,True,2014,2
 236850,True,2014,2
-236850,True,2014,2
 236850,True,2014,1
 236850,False,2015,2
 236850,True,2015,2
@@ -14182,6 +14190,7 @@ item_id,recommend,year,sentiment_analysis
 237930,True,2015,2
 237930,True,2015,2
 237930,True,2015,2
+237930,True,2015,2
 237970,False,2015,0
 237990,True,2014,2
 237990,True,2014,2
@@ -14286,6 +14295,7 @@ item_id,recommend,year,sentiment_analysis
 238320,True,2014,2
 238320,True,2014,2
 238320,True,2014,2
+238320,True,2014,1
 238320,True,2014,2
 238320,True,2014,0
 238320,True,2014,2
@@ -14371,7 +14381,6 @@ item_id,recommend,year,sentiment_analysis
 238430,True,2014,2
 238430,False,2014,0
 238430,True,2014,1
-238430,True,2014,2
 238430,False,2015,0
 238430,False,2015,0
 238430,False,2015,2
@@ -14391,6 +14400,7 @@ item_id,recommend,year,sentiment_analysis
 238460,True,2014,2
 238460,True,2014,1
 238460,False,2014,0
+238460,True,2014,0
 238460,True,2014,2
 238460,True,2014,0
 238460,True,2014,2
@@ -14445,6 +14455,7 @@ item_id,recommend,year,sentiment_analysis
 238460,True,2014,0
 238460,True,2014,2
 238460,True,2014,2
+238460,True,2014,1
 238460,True,2014,2
 238460,True,2014,2
 238460,True,2014,2
@@ -14553,7 +14564,6 @@ item_id,recommend,year,sentiment_analysis
 238960,True,2014,2
 238960,True,2014,2
 238960,True,2014,2
-238960,True,2014,2
 238960,True,2014,0
 238960,True,2014,2
 238960,True,2014,2
@@ -14571,7 +14581,6 @@ item_id,recommend,year,sentiment_analysis
 238960,True,2015,2
 238960,True,2015,2
 238960,True,2015,1
-238960,True,2015,2
 238960,True,2015,2
 238960,True,2015,2
 238960,True,2015,2
@@ -14847,6 +14856,7 @@ item_id,recommend,year,sentiment_analysis
 239350,True,2015,0
 239350,True,2015,2
 239350,True,2015,2
+239350,True,2015,2
 239410,False,2015,0
 239450,False,2013,2
 239450,False,2014,2
@@ -14981,7 +14991,6 @@ item_id,recommend,year,sentiment_analysis
 240,True,2012,2
 240,True,2012,2
 240,True,2012,2
-240,True,2012,2
 240,True,2012,0
 240,True,2012,2
 240,True,2012,2
@@ -15014,6 +15023,7 @@ item_id,recommend,year,sentiment_analysis
 240,True,2013,1
 240,True,2013,1
 240,True,2013,2
+240,True,2013,1
 240,True,2013,2
 240,True,2013,2
 240,True,2013,2
@@ -15041,6 +15051,7 @@ item_id,recommend,year,sentiment_analysis
 240,True,2014,2
 240,True,2014,2
 240,True,2014,2
+240,False,2014,1
 240,True,2014,2
 240,True,2014,0
 240,True,2014,2
@@ -15092,9 +15103,9 @@ item_id,recommend,year,sentiment_analysis
 240,True,2014,2
 240,True,2014,2
 240,True,2014,2
-240,True,2015,2
 240,True,2015,0
 240,True,2015,1
+240,True,2015,2
 240,True,2015,2
 240,True,2015,2
 240,True,2015,2
@@ -15110,8 +15121,6 @@ item_id,recommend,year,sentiment_analysis
 240,True,2015,0
 240,True,2015,1
 240,True,2015,2
-240,True,2015,2
-240,True,2015,1
 240,True,2015,2
 240,True,2015,2
 240,True,2015,2
@@ -15229,6 +15238,7 @@ item_id,recommend,year,sentiment_analysis
 241540,True,2014,2
 241540,True,2014,2
 241540,True,2014,0
+241540,True,2014,1
 241540,True,2014,2
 241540,True,2014,0
 241540,True,2014,2
@@ -15328,7 +15338,6 @@ item_id,recommend,year,sentiment_analysis
 241640,True,2013,0
 241640,True,2013,2
 241640,True,2013,0
-241640,True,2014,2
 241640,False,2014,2
 241640,True,2014,0
 241640,False,2014,1
@@ -15424,7 +15433,6 @@ item_id,recommend,year,sentiment_analysis
 241930,True,2015,2
 241930,True,2015,2
 241930,True,2015,0
-241930,True,2015,2
 241930,True,2015,0
 241930,True,2015,0
 241930,True,2015,2
@@ -15490,6 +15498,7 @@ item_id,recommend,year,sentiment_analysis
 242050,True,2013,2
 242050,True,2013,2
 242050,True,2013,2
+242050,True,2014,2
 242050,True,2014,2
 242050,True,2014,2
 242050,True,2014,2
@@ -15667,6 +15676,7 @@ item_id,recommend,year,sentiment_analysis
 242700,True,2015,2
 242700,True,2015,2
 242700,True,2015,2
+242720,False,2014,2
 242720,False,2014,0
 242720,True,2014,2
 242720,False,2014,2
@@ -15679,17 +15689,14 @@ item_id,recommend,year,sentiment_analysis
 242720,True,2014,2
 242720,True,2014,2
 242720,True,2014,2
-242720,False,2014,1
 242720,True,2014,2
 242720,True,2014,2
 242720,True,2014,2
 242720,True,2014,2
 242720,True,2014,0
 242720,True,2014,1
-242720,False,2014,2
 242720,True,2014,2
 242720,True,2014,2
-242720,False,2014,0
 242720,True,2014,2
 242720,False,2014,0
 242720,True,2014,2
@@ -15968,7 +15975,6 @@ item_id,recommend,year,sentiment_analysis
 242860,True,2015,0
 242860,True,2015,2
 242860,True,2015,2
-242860,True,2015,2
 242860,True,2015,0
 242880,True,2013,2
 242880,True,2013,2
@@ -16186,7 +16192,6 @@ item_id,recommend,year,sentiment_analysis
 243870,True,2014,2
 243870,True,2014,2
 243870,True,2014,2
-243870,True,2014,2
 243870,False,2014,1
 243870,True,2014,2
 243870,True,2014,2
@@ -16214,7 +16219,6 @@ item_id,recommend,year,sentiment_analysis
 243870,True,2015,2
 243870,False,2015,2
 243870,True,2015,0
-243870,True,2015,2
 243870,True,2015,2
 243870,True,2015,2
 243870,False,2015,2
@@ -16250,7 +16254,6 @@ item_id,recommend,year,sentiment_analysis
 244160,True,2015,2
 244160,False,2015,0
 244160,True,2015,2
-244210,True,2013,2
 244210,True,2014,2
 244210,True,2014,2
 244210,False,2014,0
@@ -16389,7 +16392,6 @@ item_id,recommend,year,sentiment_analysis
 244850,True,2014,2
 244850,True,2014,2
 244850,True,2014,2
-244850,True,2014,1
 244850,True,2014,2
 244850,True,2014,2
 244850,True,2014,2
@@ -16532,7 +16534,6 @@ item_id,recommend,year,sentiment_analysis
 244870,True,2013,2
 244870,True,2013,2
 244870,True,2013,2
-244870,True,2013,2
 244870,True,2014,0
 244870,True,2014,2
 244870,True,2014,2
@@ -16595,7 +16596,6 @@ item_id,recommend,year,sentiment_analysis
 245170,True,2014,2
 245170,True,2014,2
 245170,True,2014,2
-245170,True,2014,1
 245170,True,2014,1
 245170,True,2014,1
 245170,True,2014,2
@@ -16736,6 +16736,7 @@ item_id,recommend,year,sentiment_analysis
 246280,False,2014,1
 246280,False,2014,0
 246280,False,2014,2
+246280,False,2014,0
 246280,True,2014,0
 246280,True,2014,0
 246280,False,2014,1
@@ -16961,7 +16962,6 @@ item_id,recommend,year,sentiment_analysis
 247730,False,2014,1
 247730,True,2014,2
 247730,True,2014,2
-247730,True,2014,2
 247730,True,2014,0
 247730,True,2014,2
 247730,False,2014,0
@@ -17027,6 +17027,7 @@ item_id,recommend,year,sentiment_analysis
 248390,True,2014,2
 248390,True,2014,2
 248390,True,2015,0
+248390,True,2015,2
 248390,True,2015,1
 24840,True,2014,2
 24840,True,2014,2
@@ -17056,7 +17057,6 @@ item_id,recommend,year,sentiment_analysis
 248570,True,2014,2
 248570,True,2014,0
 248570,True,2014,1
-248570,True,2014,2
 248570,True,2014,2
 248570,True,2014,2
 248570,True,2014,2
@@ -17117,6 +17117,7 @@ item_id,recommend,year,sentiment_analysis
 248610,True,2014,2
 248610,True,2014,2
 248610,True,2014,2
+248610,True,2015,0
 248610,True,2015,2
 248610,True,2015,2
 248610,True,2015,2
@@ -17203,6 +17204,7 @@ item_id,recommend,year,sentiment_analysis
 248820,True,2015,2
 248820,True,2015,2
 248820,True,2015,2
+248820,True,2015,2
 248820,True,2015,0
 248820,True,2015,2
 248820,True,2015,1
@@ -17262,7 +17264,6 @@ item_id,recommend,year,sentiment_analysis
 249130,True,2013,1
 249130,True,2013,2
 249130,True,2013,0
-249130,True,2013,2
 249130,True,2013,2
 249130,True,2014,1
 249130,True,2014,2
@@ -17342,6 +17343,7 @@ item_id,recommend,year,sentiment_analysis
 249630,True,2014,2
 249630,True,2014,2
 249630,True,2014,2
+249630,True,2014,2
 249630,True,2015,2
 249630,False,2015,2
 249650,False,2014,0
@@ -17417,6 +17419,7 @@ item_id,recommend,year,sentiment_analysis
 250260,True,2014,2
 250260,True,2014,2
 250260,True,2014,2
+250260,False,2014,0
 250260,True,2014,2
 250260,False,2014,2
 250260,True,2014,2
@@ -17441,6 +17444,8 @@ item_id,recommend,year,sentiment_analysis
 250320,True,2013,2
 250320,True,2013,0
 250320,True,2013,2
+250320,True,2014,2
+250320,True,2014,2
 250320,True,2014,2
 250320,True,2014,2
 250320,True,2014,2
@@ -17512,24 +17517,26 @@ item_id,recommend,year,sentiment_analysis
 250400,True,2014,1
 250400,True,2015,2
 250400,True,2015,2
+250400,True,2015,2
 250400,False,2015,0
 250400,False,2015,2
 250400,True,2015,2
 250400,True,2015,2
 250400,False,2015,2
 250400,True,2015,2
+250400,True,2015,2
 250420,True,2013,2
 250420,True,2013,2
 250420,True,2013,2
 250420,True,2013,2
 250420,True,2013,2
 250420,False,2013,1
-250420,True,2013,0
 250420,False,2013,2
 250420,True,2013,2
 250420,True,2013,2
 250420,False,2013,1
 250420,False,2013,1
+250420,True,2013,2
 250420,True,2013,2
 250420,False,2014,0
 250420,False,2014,0
@@ -17621,6 +17628,7 @@ item_id,recommend,year,sentiment_analysis
 250600,True,2015,2
 250600,True,2015,2
 250600,True,2015,0
+250600,True,2015,1
 250600,True,2015,2
 250600,True,2015,0
 250600,True,2015,2
@@ -17701,7 +17709,6 @@ item_id,recommend,year,sentiment_analysis
 250900,True,2015,2
 250900,True,2015,0
 250900,True,2015,2
-250900,True,2015,1
 250900,True,2015,2
 250900,True,2015,2
 250900,True,2015,2
@@ -18050,6 +18057,7 @@ item_id,recommend,year,sentiment_analysis
 252490,True,2014,2
 252490,True,2014,2
 252490,True,2014,1
+252490,True,2014,1
 252490,False,2014,0
 252490,True,2014,2
 252490,True,2014,2
@@ -18089,7 +18097,6 @@ item_id,recommend,year,sentiment_analysis
 252490,True,2014,2
 252490,True,2014,2
 252490,True,2014,2
-252490,False,2014,1
 252490,True,2014,2
 252490,True,2014,0
 252490,True,2014,2
@@ -18244,6 +18251,7 @@ item_id,recommend,year,sentiment_analysis
 252490,True,2014,2
 252490,True,2014,1
 252490,True,2014,2
+252490,True,2014,2
 252490,False,2014,2
 252490,True,2014,2
 252490,True,2014,0
@@ -18337,7 +18345,6 @@ item_id,recommend,year,sentiment_analysis
 252490,True,2014,2
 252490,True,2014,2
 252490,True,2014,2
-252490,True,2014,2
 252490,True,2014,0
 252490,True,2014,2
 252490,True,2014,2
@@ -18496,7 +18503,9 @@ item_id,recommend,year,sentiment_analysis
 252490,False,2015,0
 252490,True,2015,2
 252490,False,2015,2
+252490,True,2015,0
 252490,False,2015,0
+252490,True,2015,2
 252490,True,2015,2
 252490,True,2015,2
 252490,True,2015,2
@@ -18668,12 +18677,13 @@ item_id,recommend,year,sentiment_analysis
 252950,True,2015,2
 252950,True,2015,2
 252950,True,2015,2
-252950,True,2015,1
-252950,True,2015,0
 252950,True,2015,2
 252950,True,2015,1
 252950,True,2015,0
 252950,True,2015,2
+252950,True,2015,1
+252950,True,2015,0
+252950,True,2015,2
 252950,True,2015,2
 252950,True,2015,2
 252950,True,2015,2
@@ -18701,7 +18711,6 @@ item_id,recommend,year,sentiment_analysis
 252950,True,2015,2
 252950,True,2015,2
 252950,True,2015,1
-252950,True,2015,2
 252950,True,2015,2
 252950,True,2015,2
 252950,True,2015,2
@@ -18855,7 +18864,7 @@ item_id,recommend,year,sentiment_analysis
 253030,True,2014,2
 253030,True,2014,2
 253030,True,2015,2
-253030,True,2015,1
+253030,True,2015,2
 253030,True,2015,2
 253030,True,2015,2
 253030,True,2015,2
@@ -18913,7 +18922,6 @@ item_id,recommend,year,sentiment_analysis
 253710,False,2014,1
 253710,True,2014,0
 253710,False,2014,0
-253710,True,2014,2
 253710,False,2014,0
 253710,False,2014,2
 253710,False,2014,0
@@ -18941,6 +18949,7 @@ item_id,recommend,year,sentiment_analysis
 253710,False,2015,1
 253710,True,2015,2
 253710,False,2015,2
+253710,True,2015,2
 253710,True,2015,2
 253710,True,2015,2
 253710,True,2015,2
@@ -19008,7 +19017,6 @@ item_id,recommend,year,sentiment_analysis
 255480,True,2014,2
 255480,False,2014,2
 255480,True,2014,2
-255480,True,2014,2
 255480,True,2015,2
 255500,False,2013,0
 255520,True,2013,0
@@ -19059,7 +19067,6 @@ item_id,recommend,year,sentiment_analysis
 255710,True,2015,2
 255710,True,2015,2
 255710,True,2015,2
-255710,True,2015,0
 255710,True,2015,2
 255710,True,2015,2
 255710,True,2015,2
@@ -19145,6 +19152,7 @@ item_id,recommend,year,sentiment_analysis
 257730,True,2014,0
 257730,True,2014,2
 257750,True,2013,2
+257750,True,2014,0
 257750,True,2014,2
 257750,True,2014,2
 257750,True,2015,2
@@ -19550,7 +19558,6 @@ item_id,recommend,year,sentiment_analysis
 261640,True,2015,1
 261640,True,2015,2
 261640,True,2015,1
-261640,True,2015,1
 261640,True,2015,2
 261640,True,2015,2
 261640,False,2015,2
@@ -19625,7 +19632,6 @@ item_id,recommend,year,sentiment_analysis
 262060,True,2015,2
 262060,True,2015,1
 262060,False,2015,0
-262060,True,2015,2
 262060,True,2015,2
 262060,True,2015,0
 262060,True,2015,0
@@ -19891,7 +19897,6 @@ item_id,recommend,year,sentiment_analysis
 264200,True,2014,2
 264200,True,2014,1
 264200,True,2014,0
-264200,True,2014,2
 264200,True,2014,2
 264200,True,2014,2
 264200,True,2014,2
@@ -20290,7 +20295,6 @@ item_id,recommend,year,sentiment_analysis
 265930,True,2014,1
 265930,True,2014,2
 265930,True,2014,1
-265930,True,2014,1
 265930,True,2014,2
 265930,True,2014,2
 265930,True,2014,2
@@ -20359,7 +20363,6 @@ item_id,recommend,year,sentiment_analysis
 265930,True,2014,1
 265930,True,2014,0
 265930,True,2014,2
-265930,True,2014,0
 265930,True,2014,2
 265930,True,2014,2
 265930,True,2014,2
@@ -20391,6 +20394,7 @@ item_id,recommend,year,sentiment_analysis
 265930,True,2015,2
 265930,False,2015,0
 265930,True,2015,1
+265930,True,2015,2
 265930,True,2015,2
 265930,True,2015,2
 265930,False,2015,0
@@ -20546,7 +20550,6 @@ item_id,recommend,year,sentiment_analysis
 268420,True,2014,2
 268420,True,2014,2
 268420,True,2014,2
-268420,True,2014,2
 268420,True,2015,2
 268420,True,2015,2
 268420,False,2015,0
@@ -20635,7 +20638,6 @@ item_id,recommend,year,sentiment_analysis
 268870,True,2014,2
 268970,True,2015,2
 26900,True,2011,2
-26900,False,2014,1
 269030,True,2014,2
 269030,False,2014,2
 269030,True,2014,1
@@ -20664,6 +20666,7 @@ item_id,recommend,year,sentiment_analysis
 269250,True,2015,2
 269250,True,2015,1
 269270,True,2015,2
+269290,True,2014,1
 269290,True,2015,2
 269290,False,2015,2
 269310,True,2014,2
@@ -21074,14 +21077,12 @@ item_id,recommend,year,sentiment_analysis
 271590,True,2015,2
 271590,True,2015,2
 271590,True,2015,2
-271590,True,2015,2
 271590,True,2015,1
 271590,True,2015,2
 271590,False,2015,2
 271590,True,2015,2
 271590,False,2015,2
 271590,True,2015,2
-271590,True,2015,0
 271590,True,2015,2
 271590,True,2015,2
 271590,True,2015,2
@@ -21152,6 +21153,7 @@ item_id,recommend,year,sentiment_analysis
 271590,True,2015,2
 271590,True,2015,1
 271590,False,2015,0
+271590,True,2015,1
 271590,True,2015,2
 271590,True,2015,2
 271590,False,2015,2
@@ -21218,6 +21220,8 @@ item_id,recommend,year,sentiment_analysis
 273110,False,2015,0
 273110,False,2015,1
 273110,False,2015,0
+273110,False,2015,0
+273110,True,2015,2
 273110,True,2015,2
 273110,True,2015,1
 273110,False,2015,1
@@ -21367,7 +21371,6 @@ item_id,recommend,year,sentiment_analysis
 274190,True,2015,2
 274190,True,2015,1
 274190,True,2015,2
-274190,True,2015,2
 274190,False,2015,0
 274190,True,2015,0
 274190,True,2015,1
@@ -21387,6 +21390,7 @@ item_id,recommend,year,sentiment_analysis
 274190,True,2015,1
 274190,False,2015,0
 274190,True,2015,2
+274190,True,2015,0
 274190,True,2015,2
 274190,False,2015,2
 274190,True,2015,2
@@ -21507,6 +21511,7 @@ item_id,recommend,year,sentiment_analysis
 275610,True,2014,2
 275610,False,2015,0
 275670,True,2014,2
+275690,True,2015,2
 275700,True,2015,2
 275700,False,2015,1
 275850,False,2014,2
@@ -21740,7 +21745,6 @@ item_id,recommend,year,sentiment_analysis
 278970,False,2015,2
 278970,False,2015,2
 278970,False,2015,2
-279112,True,2014,0
 279160,True,2014,2
 279260,True,2014,0
 27940,False,2015,0
@@ -21760,7 +21764,6 @@ item_id,recommend,year,sentiment_analysis
 28000,True,2015,2
 28000,False,2015,0
 280010,True,2015,0
-280010,True,2015,2
 280040,True,2015,2
 280180,True,2015,2
 280180,True,2015,2
@@ -21796,7 +21799,6 @@ item_id,recommend,year,sentiment_analysis
 280790,True,2015,1
 280790,True,2015,2
 280790,False,2015,1
-280790,True,2015,2
 280790,False,2015,2
 280790,True,2015,2
 280790,True,2015,0
@@ -22006,6 +22008,7 @@ item_id,recommend,year,sentiment_analysis
 283080,False,2015,0
 283160,True,2014,0
 283230,True,2014,2
+283230,False,2015,0
 283290,True,2014,1
 283290,True,2015,2
 283370,False,2015,0
@@ -22033,6 +22036,7 @@ item_id,recommend,year,sentiment_analysis
 284160,True,2015,2
 284160,True,2015,2
 284160,True,2015,2
+284160,True,2015,0
 284160,True,2015,0
 284160,True,2015,2
 284390,True,2015,2
@@ -22079,7 +22083,6 @@ item_id,recommend,year,sentiment_analysis
 285900,True,2015,2
 285900,True,2015,2
 285900,True,2015,2
-285900,True,2015,1
 285900,True,2015,2
 285900,True,2015,2
 285920,False,2015,0
@@ -22117,6 +22120,7 @@ item_id,recommend,year,sentiment_analysis
 286080,True,2015,2
 286080,True,2015,1
 286080,False,2015,1
+286080,True,2015,2
 286100,True,2014,2
 286100,True,2014,2
 286100,True,2014,2
@@ -22230,7 +22234,6 @@ item_id,recommend,year,sentiment_analysis
 287450,True,2015,2
 287450,True,2015,2
 287450,True,2015,2
-287450,True,2015,2
 287580,True,2015,2
 287700,True,2015,1
 287700,False,2015,0
@@ -22317,6 +22320,7 @@ item_id,recommend,year,sentiment_analysis
 288470,True,2014,2
 288470,True,2014,2
 288470,True,2015,2
+288470,True,2015,2
 288470,True,2015,0
 288470,True,2015,0
 288470,True,2015,2
@@ -22328,7 +22332,6 @@ item_id,recommend,year,sentiment_analysis
 289130,False,2014,0
 289130,True,2014,1
 289130,True,2014,0
-289130,True,2014,2
 289130,True,2014,2
 289130,True,2014,2
 289130,True,2014,2
@@ -22484,6 +22487,7 @@ item_id,recommend,year,sentiment_analysis
 291480,False,2014,0
 291480,True,2014,2
 291480,True,2014,2
+291480,True,2014,2
 291480,False,2014,2
 291480,False,2014,0
 291480,False,2014,0
@@ -22614,6 +22618,7 @@ item_id,recommend,year,sentiment_analysis
 292030,True,2015,2
 292030,True,2015,2
 292030,True,2015,2
+292030,True,2015,2
 292030,True,2015,0
 292030,True,2015,2
 292030,True,2015,2
@@ -22642,6 +22647,7 @@ item_id,recommend,year,sentiment_analysis
 292030,True,2015,0
 292030,True,2015,2
 292030,True,2015,0
+292030,True,2015,2
 292030,True,2015,2
 292030,True,2015,2
 292030,True,2015,2
@@ -22741,7 +22747,6 @@ item_id,recommend,year,sentiment_analysis
 293010,True,2015,2
 293180,True,2015,0
 293180,True,2015,2
-293240,True,2014,2
 293240,True,2014,2
 293260,True,2015,2
 293260,True,2015,2
@@ -22927,6 +22932,7 @@ item_id,recommend,year,sentiment_analysis
 295110,True,2015,2
 295110,False,2015,1
 295110,False,2015,2
+295110,True,2015,1
 295110,True,2015,2
 295110,True,2015,0
 295110,False,2015,0
@@ -22960,7 +22966,6 @@ item_id,recommend,year,sentiment_analysis
 295110,False,2015,0
 295110,True,2015,0
 295110,False,2015,2
-295110,True,2015,2
 295110,False,2015,2
 295110,True,2015,2
 295110,True,2015,1
@@ -23136,7 +23141,6 @@ item_id,recommend,year,sentiment_analysis
 298260,True,2014,2
 298260,True,2014,2
 298260,True,2014,2
-298260,True,2014,1
 298260,False,2014,0
 298260,True,2015,2
 298260,False,2015,2
@@ -23193,6 +23197,7 @@ item_id,recommend,year,sentiment_analysis
 298630,True,2015,2
 298630,False,2015,0
 298630,True,2015,1
+298630,True,2015,2
 298630,True,2015,2
 298630,False,2015,2
 298630,True,2015,1
@@ -23318,7 +23323,6 @@ item_id,recommend,year,sentiment_analysis
 300,True,2015,2
 300,True,2015,1
 300,True,2015,2
-300,True,2015,2
 300040,True,2014,2
 300040,True,2015,0
 300080,False,2015,2
@@ -23354,6 +23358,7 @@ item_id,recommend,year,sentiment_analysis
 301480,True,2014,1
 301480,False,2014,1
 301480,True,2014,2
+301480,True,2014,2
 301520,True,2014,2
 301520,True,2014,2
 301520,False,2014,0
@@ -23469,7 +23474,6 @@ item_id,recommend,year,sentiment_analysis
 301520,True,2014,1
 301520,True,2014,2
 301520,True,2014,2
-301520,True,2014,1
 301520,True,2014,0
 301520,True,2015,2
 301520,False,2015,2
@@ -23718,6 +23722,7 @@ item_id,recommend,year,sentiment_analysis
 302830,True,2015,2
 302830,True,2015,2
 302830,False,2015,2
+302830,True,2015,2
 302830,True,2015,1
 302830,True,2015,2
 302830,False,2015,1
@@ -23920,7 +23925,6 @@ item_id,recommend,year,sentiment_analysis
 304050,True,2015,2
 304050,True,2015,2
 304050,True,2015,2
-304050,True,2015,2
 304050,False,2015,1
 304050,False,2015,0
 304050,True,2015,2
@@ -23934,12 +23938,12 @@ item_id,recommend,year,sentiment_analysis
 304050,True,2015,2
 304050,True,2015,2
 304050,True,2015,2
-304050,True,2015,2
 304050,False,2015,1
 304240,True,2015,2
 304240,True,2015,2
 304240,True,2015,0
 304240,True,2015,2
+304270,True,2014,2
 304270,False,2014,0
 304270,True,2015,2
 304270,True,2015,0
@@ -23999,7 +24003,6 @@ item_id,recommend,year,sentiment_analysis
 304930,True,2014,2
 304930,True,2014,2
 304930,True,2014,2
-304930,True,2014,1
 304930,True,2014,2
 304930,True,2014,2
 304930,True,2014,2
@@ -24128,6 +24131,7 @@ item_id,recommend,year,sentiment_analysis
 304930,True,2014,2
 304930,True,2014,2
 304930,True,2014,2
+304930,True,2014,2
 304930,False,2014,0
 304930,True,2014,2
 304930,True,2014,2
@@ -24190,6 +24194,7 @@ item_id,recommend,year,sentiment_analysis
 304930,True,2014,2
 304930,True,2014,0
 304930,False,2014,2
+304930,True,2014,2
 304930,True,2014,2
 304930,True,2014,1
 304930,True,2014,2
@@ -24228,7 +24233,6 @@ item_id,recommend,year,sentiment_analysis
 304930,True,2014,1
 304930,True,2014,0
 304930,True,2014,2
-304930,True,2014,2
 304930,True,2014,0
 304930,True,2014,2
 304930,True,2014,2
@@ -24377,6 +24381,7 @@ item_id,recommend,year,sentiment_analysis
 304930,True,2015,2
 304930,True,2015,1
 304930,True,2015,2
+304930,True,2015,0
 304930,True,2015,1
 304930,True,2015,0
 304930,True,2015,2
@@ -24461,6 +24466,7 @@ item_id,recommend,year,sentiment_analysis
 304930,True,2015,2
 304930,True,2015,2
 304930,False,2015,1
+304930,False,2015,1
 304930,True,2015,2
 304930,True,2015,2
 304930,True,2015,2
@@ -24597,7 +24603,6 @@ item_id,recommend,year,sentiment_analysis
 304930,True,2015,0
 304930,True,2015,2
 304930,True,2015,2
-304930,True,2015,2
 304930,False,2015,1
 304930,False,2015,0
 304930,True,2015,2
@@ -24618,6 +24623,7 @@ item_id,recommend,year,sentiment_analysis
 304930,True,2015,0
 304930,False,2015,0
 304930,True,2015,1
+304930,True,2015,2
 304930,True,2015,2
 304930,True,2015,0
 304930,True,2015,2
@@ -24707,6 +24713,7 @@ item_id,recommend,year,sentiment_analysis
 305620,True,2015,2
 305620,True,2015,2
 305620,False,2015,2
+305620,True,2015,2
 305620,True,2015,1
 305620,True,2015,2
 305620,True,2015,2
@@ -24716,7 +24723,6 @@ item_id,recommend,year,sentiment_analysis
 305960,False,2014,2
 305960,False,2014,0
 305980,False,2015,0
-306020,True,2014,2
 306020,True,2014,2
 306020,True,2015,2
 306020,True,2015,2
@@ -24754,6 +24760,7 @@ item_id,recommend,year,sentiment_analysis
 306130,False,2015,1
 306130,True,2015,2
 306130,False,2015,2
+306370,False,2015,1
 306460,True,2014,1
 306460,True,2014,2
 306460,True,2015,2
@@ -24771,6 +24778,7 @@ item_id,recommend,year,sentiment_analysis
 306660,True,2014,2
 306660,True,2015,2
 306680,True,2014,0
+306760,True,2014,2
 306830,False,2014,2
 306830,False,2014,0
 306830,False,2014,2
@@ -24780,7 +24788,6 @@ item_id,recommend,year,sentiment_analysis
 306830,True,2014,0
 306830,True,2014,2
 306830,True,2015,1
-307030,True,2015,2
 307050,True,2015,2
 307070,True,2014,2
 307070,True,2015,2
@@ -24991,7 +24998,6 @@ item_id,recommend,year,sentiment_analysis
 311210,False,2015,2
 311210,False,2015,0
 311210,True,2015,2
-311210,True,2015,2
 311210,False,2015,0
 311210,True,2015,0
 311210,False,2015,0
@@ -25036,6 +25042,7 @@ item_id,recommend,year,sentiment_analysis
 311210,False,2015,0
 311210,False,2015,0
 311210,False,2015,2
+311210,False,2015,1
 311210,False,2015,0
 311210,False,2015,2
 311210,False,2015,2
@@ -25064,7 +25071,6 @@ item_id,recommend,year,sentiment_analysis
 311210,False,2015,0
 311210,True,2015,1
 311210,False,2015,2
-311210,False,2015,0
 311210,True,2015,2
 311210,True,2015,2
 311210,True,2015,0
@@ -25136,7 +25142,6 @@ item_id,recommend,year,sentiment_analysis
 312150,True,2014,2
 312150,True,2015,2
 312150,True,2015,2
-31220,True,2010,2
 31220,True,2014,2
 31220,True,2014,2
 312210,True,2014,2
@@ -25180,7 +25185,6 @@ item_id,recommend,year,sentiment_analysis
 31280,True,2013,2
 31280,True,2013,2
 31280,True,2013,2
-31280,True,2013,0
 31280,True,2013,2
 31280,False,2014,1
 31280,True,2014,1
@@ -25323,7 +25327,6 @@ item_id,recommend,year,sentiment_analysis
 313160,True,2015,0
 313340,True,2014,0
 313340,True,2014,2
-313340,True,2014,1
 313340,True,2014,1
 313340,False,2014,2
 313340,True,2014,2
@@ -25669,6 +25672,7 @@ item_id,recommend,year,sentiment_analysis
 319080,True,2014,2
 319090,False,2014,2
 319090,False,2014,2
+319130,False,2014,0
 319130,True,2014,2
 319140,True,2015,2
 319150,True,2014,1
@@ -26168,7 +26172,6 @@ item_id,recommend,year,sentiment_analysis
 322500,True,2014,2
 322500,True,2014,2
 322500,True,2014,2
-322500,True,2014,2
 322500,True,2014,1
 322500,True,2014,2
 322500,True,2014,2
@@ -26211,7 +26214,6 @@ item_id,recommend,year,sentiment_analysis
 322920,False,2015,2
 322920,True,2015,0
 322920,True,2015,2
-322920,True,2015,0
 322920,True,2015,2
 322920,True,2015,2
 322980,True,2014,2
@@ -26309,6 +26311,7 @@ item_id,recommend,year,sentiment_analysis
 32360,True,2013,2
 32360,True,2013,2
 32360,True,2013,2
+323610,True,2015,2
 323610,True,2015,2
 323610,True,2015,2
 323610,False,2015,2
@@ -26452,7 +26455,6 @@ item_id,recommend,year,sentiment_analysis
 326460,True,2014,2
 326480,True,2015,2
 326480,True,2015,2
-326480,True,2015,1
 326480,True,2015,2
 326670,False,2015,0
 326670,True,2015,2
@@ -26462,8 +26464,10 @@ item_id,recommend,year,sentiment_analysis
 327070,True,2014,1
 327070,True,2014,2
 327090,True,2015,0
+327090,False,2015,1
 327090,True,2015,2
 327130,False,2014,0
+327140,True,2014,2
 327220,True,2015,2
 327231,True,2015,2
 327280,True,2014,2
@@ -26497,7 +26501,6 @@ item_id,recommend,year,sentiment_analysis
 327890,True,2015,1
 327890,True,2015,0
 327890,True,2015,1
-327890,True,2015,2
 327890,True,2015,1
 327890,False,2015,2
 327890,False,2015,2
@@ -26670,6 +26673,7 @@ item_id,recommend,year,sentiment_analysis
 33100,True,2014,0
 331120,True,2015,2
 331120,False,2015,0
+331160,True,2014,2
 331190,True,2015,2
 331190,True,2015,2
 331200,True,2015,2
@@ -26768,6 +26772,7 @@ item_id,recommend,year,sentiment_analysis
 332310,True,2015,1
 332310,True,2015,2
 332310,True,2015,0
+332310,True,2015,2
 332310,True,2015,2
 332310,True,2015,2
 332310,True,2015,2
@@ -27209,6 +27214,7 @@ item_id,recommend,year,sentiment_analysis
 337320,True,2015,2
 337320,True,2015,2
 337320,True,2015,2
+337320,True,2015,2
 337320,True,2015,0
 337660,False,2014,2
 337661,True,2014,0
@@ -27246,6 +27252,7 @@ item_id,recommend,year,sentiment_analysis
 338540,True,2015,2
 338580,True,2015,1
 3390,True,2014,1
+3390,True,2014,1
 3390,True,2015,2
 33900,True,2013,2
 33900,True,2013,2
@@ -27275,6 +27282,7 @@ item_id,recommend,year,sentiment_analysis
 33930,True,2012,2
 33930,True,2013,2
 33930,True,2013,2
+33930,True,2013,1
 33930,True,2013,2
 33930,True,2013,2
 33930,True,2013,2
@@ -27326,7 +27334,6 @@ item_id,recommend,year,sentiment_analysis
 33930,True,2015,0
 33930,True,2015,2
 33930,True,2015,2
-33930,True,2015,1
 33930,True,2015,2
 33930,True,2015,2
 33930,True,2015,2
@@ -27335,7 +27342,6 @@ item_id,recommend,year,sentiment_analysis
 33930,True,2015,0
 339340,True,2014,0
 339350,True,2014,2
-339350,True,2015,1
 339350,True,2015,2
 339350,True,2015,2
 339400,True,2015,2
@@ -27506,6 +27512,7 @@ item_id,recommend,year,sentiment_analysis
 34330,True,2012,2
 34330,True,2012,2
 34330,True,2012,2
+34330,True,2012,2
 34330,True,2013,1
 34330,True,2013,2
 34330,True,2013,1
@@ -27521,7 +27528,6 @@ item_id,recommend,year,sentiment_analysis
 34330,True,2014,2
 34330,True,2014,2
 34330,True,2014,2
-34330,True,2014,1
 34330,True,2014,2
 34330,True,2014,2
 34330,True,2014,2
@@ -27658,6 +27664,7 @@ item_id,recommend,year,sentiment_analysis
 345520,False,2015,2
 345520,True,2015,2
 345520,True,2015,2
+345520,False,2015,2
 345580,False,2015,0
 345610,True,2015,2
 345610,True,2015,2
@@ -27757,6 +27764,7 @@ item_id,recommend,year,sentiment_analysis
 346110,True,2015,2
 346110,True,2015,2
 346110,False,2015,2
+346110,True,2015,2
 346110,True,2015,0
 346110,True,2015,2
 346110,True,2015,2
@@ -27901,6 +27909,7 @@ item_id,recommend,year,sentiment_analysis
 346110,True,2015,2
 346110,True,2015,0
 346110,True,2015,0
+346110,True,2015,2
 346110,True,2015,2
 346110,True,2015,2
 346110,True,2015,2
@@ -28014,8 +28023,8 @@ item_id,recommend,year,sentiment_analysis
 346900,True,2015,2
 346900,False,2015,2
 346900,True,2015,2
-346900,True,2015,1
 346900,True,2015,2
+346900,True,2015,1
 346900,True,2015,1
 346900,True,2015,2
 346900,True,2015,2
@@ -28124,7 +28133,6 @@ item_id,recommend,year,sentiment_analysis
 348090,True,2015,1
 348090,True,2015,0
 348090,True,2015,0
-348090,True,2015,1
 348090,True,2015,2
 348091,True,2015,1
 348290,False,2015,2
@@ -28430,7 +28438,6 @@ item_id,recommend,year,sentiment_analysis
 353130,True,2014,2
 353130,False,2014,2
 353130,True,2014,2
-353130,True,2014,2
 353270,True,2015,1
 353270,True,2015,2
 353270,True,2015,2
@@ -28444,6 +28451,7 @@ item_id,recommend,year,sentiment_analysis
 353360,True,2015,0
 353360,True,2015,0
 353360,True,2015,0
+353360,True,2015,1
 353370,True,2014,2
 353370,False,2014,2
 353370,False,2014,0
@@ -28614,6 +28622,7 @@ item_id,recommend,year,sentiment_analysis
 355180,False,2015,2
 355180,True,2015,0
 355180,True,2015,2
+355180,False,2015,0
 355180,True,2015,2
 355180,True,2015,0
 355180,True,2015,2
@@ -28777,6 +28786,7 @@ item_id,recommend,year,sentiment_analysis
 359050,True,2015,2
 359050,True,2015,1
 359050,True,2015,0
+359050,True,2015,2
 359050,True,2015,2
 359050,True,2015,2
 359050,True,2015,0
@@ -28974,7 +28984,6 @@ item_id,recommend,year,sentiment_analysis
 362890,True,2015,2
 362890,True,2015,2
 362890,True,2015,2
-362890,True,2015,2
 362890,False,2015,0
 362890,True,2015,2
 362890,True,2015,2
@@ -29032,6 +29041,7 @@ item_id,recommend,year,sentiment_analysis
 363970,True,2015,1
 363970,True,2015,0
 363970,True,2015,1
+363970,True,2015,0
 363970,True,2015,2
 363970,True,2015,0
 363970,True,2015,2
@@ -29060,7 +29070,6 @@ item_id,recommend,year,sentiment_analysis
 363970,False,2015,0
 363970,True,2015,2
 363970,True,2015,2
-363970,True,2015,0
 363970,True,2015,0
 363970,True,2015,2
 363970,True,2015,2
@@ -29167,6 +29176,7 @@ item_id,recommend,year,sentiment_analysis
 365670,True,2015,2
 365670,True,2015,2
 365670,True,2015,2
+365670,True,2015,2
 365670,True,2015,1
 365670,True,2015,0
 365670,True,2015,2
@@ -29186,7 +29196,6 @@ item_id,recommend,year,sentiment_analysis
 366440,True,2014,2
 366660,True,2015,2
 366660,True,2015,2
-366660,True,2015,1
 366843,True,2014,2
 366844,True,2014,2
 366890,False,2015,0
@@ -29540,9 +29549,9 @@ item_id,recommend,year,sentiment_analysis
 374570,True,2015,2
 374570,True,2015,2
 374570,True,2015,2
-374570,True,2015,1
 374570,False,2015,2
 374570,True,2015,0
+374570,True,2015,1
 374570,True,2015,1
 374570,True,2015,0
 374570,True,2015,2
@@ -29815,6 +29824,7 @@ item_id,recommend,year,sentiment_analysis
 377160,True,2015,2
 377160,True,2015,0
 377160,True,2015,2
+377160,False,2015,0
 377160,False,2015,2
 377160,True,2015,2
 377160,True,2015,2
@@ -30254,6 +30264,7 @@ item_id,recommend,year,sentiment_analysis
 385800,True,2015,2
 385800,True,2015,1
 385800,True,2015,1
+385800,True,2015,2
 385830,False,2015,0
 385890,True,2015,2
 385970,False,2014,0
@@ -30329,6 +30340,7 @@ item_id,recommend,year,sentiment_analysis
 386880,True,2015,2
 386880,True,2015,2
 386880,True,2015,0
+386880,True,2015,0
 386940,True,2014,2
 386940,True,2014,2
 38720,True,2013,2
@@ -30337,6 +30349,7 @@ item_id,recommend,year,sentiment_analysis
 38720,False,2015,2
 387240,True,2015,2
 387290,True,2014,2
+387340,True,2014,2
 387340,True,2014,2
 387340,True,2014,2
 387370,True,2014,2
@@ -30427,6 +30440,7 @@ item_id,recommend,year,sentiment_analysis
 388520,False,2015,1
 388520,False,2015,0
 388520,False,2015,2
+388520,False,2015,0
 388520,True,2015,2
 388520,True,2015,2
 388520,False,2015,2
@@ -30476,8 +30490,6 @@ item_id,recommend,year,sentiment_analysis
 39000,True,2014,2
 39000,True,2014,1
 39000,True,2014,2
-39000,True,2014,0
-39000,True,2014,2
 39000,True,2014,2
 39000,True,2015,2
 39000,True,2015,0
@@ -30524,6 +30536,7 @@ item_id,recommend,year,sentiment_analysis
 39120,True,2013,2
 39120,True,2013,2
 39120,True,2013,2
+39120,True,2014,2
 39120,True,2014,2
 39120,True,2014,2
 39120,True,2014,2
@@ -30706,7 +30719,6 @@ item_id,recommend,year,sentiment_analysis
 391540,True,2015,0
 391540,True,2015,0
 391540,True,2015,1
-391540,True,2015,2
 391540,True,2015,2
 391540,True,2015,2
 391540,True,2015,2
@@ -30982,6 +30994,7 @@ item_id,recommend,year,sentiment_analysis
 397340,True,2015,2
 397340,True,2015,2
 397340,True,2015,2
+397340,True,2015,2
 397430,True,2015,2
 397430,True,2015,1
 397430,True,2015,2
@@ -31050,7 +31063,6 @@ item_id,recommend,year,sentiment_analysis
 400,True,2013,2
 400,True,2013,2
 400,True,2013,2
-400,True,2013,2
 400,True,2014,2
 400,True,2014,2
 400,True,2014,2
@@ -31059,12 +31071,12 @@ item_id,recommend,year,sentiment_analysis
 400,True,2014,2
 400,True,2014,2
 400,True,2014,0
-400,True,2014,2
 400,True,2014,1
 400,True,2014,2
 400,True,2014,2
 400,True,2014,2
 400,True,2014,0
+400,True,2014,1
 400,True,2014,0
 400,True,2014,1
 400,True,2014,0
@@ -31305,7 +31317,6 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2013,2
 4000,True,2013,2
 4000,True,2013,2
-4000,True,2013,2
 4000,True,2013,1
 4000,True,2013,2
 4000,True,2013,1
@@ -31399,6 +31410,7 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
+4000,True,2014,2
 4000,True,2014,1
 4000,True,2014,1
 4000,True,2014,2
@@ -31420,7 +31432,6 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,1
-4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
@@ -31633,6 +31644,7 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2014,2
 4000,True,2014,1
 4000,True,2014,0
+4000,True,2014,2
 4000,True,2014,0
 4000,True,2014,1
 4000,True,2014,0
@@ -31655,6 +31667,7 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2014,2
 4000,True,2014,1
 4000,True,2014,0
+4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,0
 4000,True,2014,2
@@ -31775,6 +31788,7 @@ item_id,recommend,year,sentiment_analysis
 4000,False,2014,2
 4000,True,2014,2
 4000,True,2014,2
+4000,True,2014,1
 4000,True,2014,0
 4000,True,2014,2
 4000,True,2014,2
@@ -31794,7 +31808,6 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
-4000,True,2014,1
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
@@ -31822,7 +31835,6 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,0
-4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,0
 4000,True,2014,1
@@ -31849,6 +31861,7 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
+4000,True,2014,2
 4000,False,2014,0
 4000,True,2014,0
 4000,True,2014,2
@@ -31880,6 +31893,7 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,1
+4000,True,2014,0
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
@@ -31905,12 +31919,14 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2014,0
 4000,True,2014,2
 4000,True,2014,1
+4000,True,2014,1
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,0
+4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
 4000,True,2014,2
@@ -31960,7 +31976,6 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2015,0
 4000,True,2015,2
 4000,True,2015,2
-4000,True,2015,1
 4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
@@ -32042,8 +32057,8 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
-4000,True,2015,2
 4000,True,2015,0
+4000,True,2015,1
 4000,True,2015,1
 4000,True,2015,1
 4000,True,2015,2
@@ -32060,6 +32075,7 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
+4000,True,2015,1
 4000,True,2015,2
 4000,True,2015,1
 4000,True,2015,2
@@ -32089,7 +32105,6 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2015,0
 4000,True,2015,2
 4000,True,2015,2
-4000,True,2015,1
 4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
@@ -32128,6 +32143,7 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
+4000,False,2015,0
 4000,True,2015,2
 4000,True,2015,0
 4000,True,2015,2
@@ -32184,7 +32200,6 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
-4000,True,2015,1
 4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
@@ -32219,7 +32234,6 @@ item_id,recommend,year,sentiment_analysis
 4000,True,2015,2
 4000,True,2015,2
 4000,False,2015,2
-4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,0
@@ -32277,7 +32291,6 @@ item_id,recommend,year,sentiment_analysis
 4000,False,2015,1
 4000,True,2015,2
 4000,True,2015,1
-4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
 4000,True,2015,2
@@ -32414,6 +32427,7 @@ item_id,recommend,year,sentiment_analysis
 404480,True,2015,2
 404480,True,2015,2
 404480,True,2015,1
+405010,True,2015,1
 405170,True,2015,2
 405170,False,2015,2
 405170,True,2015,2
@@ -32454,6 +32468,7 @@ item_id,recommend,year,sentiment_analysis
 407060,True,2014,2
 407120,True,2014,2
 407210,True,2014,2
+407230,True,2014,2
 407250,True,2014,2
 407250,True,2014,2
 407250,False,2014,2
@@ -32672,8 +32687,8 @@ item_id,recommend,year,sentiment_analysis
 412880,False,2014,1
 412880,True,2014,2
 412880,True,2014,2
+412880,True,2014,1
 412880,False,2014,1
-41300,True,2011,2
 41300,True,2011,2
 41300,True,2011,2
 41300,True,2014,2
@@ -32761,6 +32776,7 @@ item_id,recommend,year,sentiment_analysis
 413850,True,2015,2
 413850,True,2015,2
 413850,True,2015,2
+413850,True,2015,2
 414080,True,2014,2
 414130,False,2014,0
 414190,True,2014,2
@@ -32825,7 +32841,6 @@ item_id,recommend,year,sentiment_analysis
 417860,True,2015,2
 417860,True,2015,2
 417860,True,2015,2
-417860,True,2015,1
 417860,True,2015,2
 417860,True,2015,2
 417860,True,2015,2
@@ -32860,7 +32875,6 @@ item_id,recommend,year,sentiment_analysis
 417860,True,2015,2
 417860,True,2015,1
 417860,False,2015,2
-417860,True,2015,0
 417860,True,2015,1
 417860,True,2015,2
 417860,True,2015,0
@@ -32889,7 +32903,6 @@ item_id,recommend,year,sentiment_analysis
 417860,True,2015,0
 417860,False,2015,0
 417860,True,2015,2
-417860,True,2015,1
 417860,True,2015,2
 417860,True,2015,1
 417860,True,2015,2
@@ -32915,7 +32928,6 @@ item_id,recommend,year,sentiment_analysis
 417860,True,2015,1
 417860,True,2015,1
 417860,True,2015,2
-417860,True,2015,1
 417860,True,2015,0
 417860,True,2015,0
 417860,True,2015,0
@@ -32930,6 +32942,7 @@ item_id,recommend,year,sentiment_analysis
 417860,True,2015,0
 417860,True,2015,1
 417860,False,2015,2
+417860,True,2015,2
 417860,True,2015,0
 417860,True,2015,0
 417860,True,2015,2
@@ -33026,7 +33039,6 @@ item_id,recommend,year,sentiment_analysis
 420930,True,2014,0
 421040,True,2014,2
 42120,False,2015,0
-42120,False,2015,0
 42140,True,2013,2
 42160,True,2012,0
 42160,True,2013,2
@@ -33089,7 +33101,6 @@ item_id,recommend,year,sentiment_analysis
 423880,True,2015,2
 423880,True,2015,0
 423880,True,2015,0
-423880,True,2015,0
 423880,True,2015,2
 423880,True,2015,2
 423880,True,2015,1
@@ -33116,6 +33127,8 @@ item_id,recommend,year,sentiment_analysis
 426000,True,2014,2
 42650,True,2014,2
 42680,True,2012,0
+42680,True,2012,2
+42680,False,2012,1
 42680,True,2012,2
 42680,True,2012,2
 42680,True,2012,2
@@ -33165,6 +33178,7 @@ item_id,recommend,year,sentiment_analysis
 42700,True,2014,2
 42700,True,2014,2
 42700,True,2014,1
+42700,True,2014,2
 42700,True,2014,2
 42700,True,2014,2
 42700,False,2014,0
@@ -33251,6 +33265,7 @@ item_id,recommend,year,sentiment_analysis
 427920,False,2014,0
 427950,True,2014,2
 427980,False,2014,2
+428220,True,2014,2
 428370,True,2014,2
 428550,True,2014,0
 428690,True,2014,0
@@ -33312,7 +33327,6 @@ item_id,recommend,year,sentiment_analysis
 42910,True,2014,2
 42910,True,2014,2
 42910,True,2014,2
-42910,True,2014,2
 42910,True,2015,0
 42910,True,2015,0
 42910,True,2015,2
@@ -33346,7 +33360,6 @@ item_id,recommend,year,sentiment_analysis
 42960,True,2015,1
 42960,True,2015,1
 42960,False,2015,1
-429680,True,2014,2
 429700,True,2014,2
 429720,True,2014,2
 429720,True,2014,2
@@ -33508,13 +33521,13 @@ item_id,recommend,year,sentiment_analysis
 434260,True,2014,2
 434370,True,2014,2
 434420,True,2014,2
-434570,True,2014,1
 434570,False,2014,2
 434570,True,2014,2
 434570,True,2014,2
 434570,True,2014,1
 434570,True,2014,1
 434570,True,2014,2
+434570,True,2014,0
 434570,True,2014,2
 434570,True,2014,2
 434620,True,2014,2
@@ -33551,7 +33564,6 @@ item_id,recommend,year,sentiment_analysis
 436500,True,2014,2
 436520,True,2014,2
 436820,True,2014,2
-437070,True,2014,0
 437080,True,2014,2
 437220,False,2014,0
 437220,False,2014,2
@@ -33572,7 +33584,6 @@ item_id,recommend,year,sentiment_analysis
 437220,True,2014,2
 437220,True,2014,2
 437220,True,2014,0
-437220,True,2014,2
 437220,True,2014,2
 437220,True,2014,0
 437220,True,2014,2
@@ -33607,7 +33618,6 @@ item_id,recommend,year,sentiment_analysis
 437900,True,2014,2
 438080,True,2014,2
 438270,True,2014,2
-438490,True,2014,2
 438490,True,2014,2
 438490,True,2014,2
 438490,True,2014,2
@@ -33687,6 +33697,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2011,2
 440,True,2011,2
 440,True,2011,2
+440,True,2011,2
 440,True,2011,1
 440,True,2011,0
 440,True,2011,2
@@ -33694,7 +33705,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2011,1
 440,True,2011,2
 440,True,2011,2
-440,True,2011,2
 440,True,2012,2
 440,True,2012,2
 440,True,2012,2
@@ -33734,9 +33744,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2012,2
 440,True,2012,2
 440,True,2012,2
-440,True,2012,0
 440,True,2012,1
-440,True,2012,2
 440,True,2012,2
 440,True,2012,2
 440,True,2012,2
@@ -33785,22 +33793,23 @@ item_id,recommend,year,sentiment_analysis
 440,True,2012,2
 440,True,2012,2
 440,True,2012,2
-440,True,2012,1
-440,True,2012,2
-440,True,2012,2
-440,True,2012,0
-440,True,2012,2
-440,True,2012,2
-440,True,2012,2
-440,True,2012,2
-440,True,2012,2
-440,True,2012,2
-440,True,2012,2
-440,True,2012,0
-440,True,2012,2
-440,True,2012,2
 440,True,2012,2
 440,True,2012,1
+440,True,2012,2
+440,True,2012,2
+440,True,2012,0
+440,True,2012,2
+440,True,2012,2
+440,True,2012,2
+440,True,2012,2
+440,True,2012,2
+440,True,2012,2
+440,True,2012,2
+440,True,2012,0
+440,True,2012,2
+440,True,2012,2
+440,True,2012,2
+440,True,2012,1
 440,True,2012,0
 440,True,2012,2
 440,True,2012,2
@@ -33811,6 +33820,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2012,2
 440,True,2012,0
 440,True,2012,1
+440,True,2012,2
 440,True,2012,2
 440,True,2012,2
 440,True,2012,2
@@ -34121,7 +34131,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2013,2
 440,True,2013,2
 440,True,2013,2
-440,True,2013,2
 440,True,2013,1
 440,True,2013,2
 440,True,2013,2
@@ -34136,9 +34145,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2013,1
 440,True,2013,2
 440,True,2013,0
-440,True,2013,1
-440,True,2013,1
-440,True,2013,2
 440,True,2013,2
 440,True,2013,2
 440,True,2013,2
@@ -34161,6 +34167,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2013,2
 440,True,2013,2
 440,True,2013,2
+440,True,2013,2
 440,True,2013,0
 440,True,2013,2
 440,True,2013,2
@@ -34388,6 +34395,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2013,2
 440,True,2013,2
 440,True,2013,2
+440,True,2013,2
 440,False,2013,0
 440,True,2013,2
 440,True,2013,1
@@ -34413,6 +34421,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
+440,True,2014,2
 440,True,2014,0
 440,True,2014,2
 440,True,2014,2
@@ -34475,6 +34484,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,1
+440,True,2014,2
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
@@ -34631,7 +34641,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,1
 440,True,2014,2
-440,True,2014,2
 440,True,2014,1
 440,True,2014,2
 440,True,2014,2
@@ -34730,7 +34739,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
-440,True,2014,2
 440,True,2014,1
 440,True,2014,2
 440,True,2014,2
@@ -34830,61 +34838,64 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
-440,True,2014,0
-440,True,2014,2
-440,True,2014,2
-440,True,2014,2
-440,True,2014,2
-440,True,2014,1
-440,True,2014,2
-440,True,2014,2
-440,True,2014,0
-440,True,2014,2
-440,True,2014,1
-440,True,2014,2
-440,True,2014,1
-440,True,2014,2
-440,True,2014,1
-440,True,2014,1
-440,True,2014,0
-440,True,2014,1
-440,True,2014,2
-440,True,2014,1
-440,True,2014,2
-440,True,2014,2
-440,True,2014,2
-440,True,2014,1
-440,True,2014,0
-440,True,2014,1
-440,True,2014,2
-440,True,2014,2
-440,True,2014,2
-440,True,2014,2
-440,True,2014,2
-440,True,2014,2
-440,True,2014,0
-440,True,2014,2
-440,True,2014,2
-440,True,2014,1
-440,True,2014,2
-440,True,2014,2
-440,True,2014,2
-440,True,2014,0
-440,True,2014,2
-440,True,2014,0
-440,True,2014,1
-440,True,2014,2
-440,True,2014,2
 440,True,2014,2
 440,True,2014,0
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
+440,True,2014,1
+440,True,2014,2
+440,True,2014,2
+440,True,2014,0
+440,True,2014,2
+440,True,2014,1
+440,True,2014,2
+440,True,2014,1
+440,True,2014,2
+440,True,2014,1
+440,True,2014,1
+440,True,2014,0
+440,True,2014,1
+440,True,2014,2
+440,True,2014,1
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,1
+440,True,2014,0
+440,True,2014,1
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,0
+440,True,2014,2
+440,True,2014,2
+440,True,2014,1
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,0
+440,True,2014,2
+440,True,2014,0
+440,True,2014,1
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,0
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,2
+440,True,2014,1
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
@@ -34960,7 +34971,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,0
-440,True,2014,2
 440,True,2014,2
 440,True,2014,1
 440,True,2014,1
@@ -35007,6 +35017,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
+440,True,2014,2
 440,False,2014,2
 440,True,2014,2
 440,True,2014,2
@@ -35019,6 +35030,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,0
 440,True,2014,2
+440,True,2014,1
 440,True,2014,2
 440,True,2014,2
 440,False,2014,0
@@ -35172,7 +35184,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
-440,True,2014,2
 440,True,2014,0
 440,True,2014,0
 440,True,2014,1
@@ -35183,7 +35194,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
-440,True,2014,1
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
@@ -35207,7 +35217,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,1
-440,True,2014,0
 440,True,2014,2
 440,True,2014,0
 440,True,2014,2
@@ -35244,7 +35253,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,0
 440,True,2014,0
-440,True,2014,2
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
@@ -35321,7 +35329,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
-440,True,2014,1
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
@@ -35344,7 +35351,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2014,2
 440,True,2014,2
 440,True,2014,2
-440,True,2014,2
 440,True,2014,1
 440,True,2014,2
 440,True,2014,1
@@ -35443,32 +35449,30 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,1
 440,True,2015,1
 440,True,2015,2
-440,True,2015,2
-440,True,2015,2
-440,True,2015,1
-440,True,2015,0
-440,True,2015,0
-440,True,2015,2
-440,True,2015,2
-440,True,2015,0
-440,True,2015,2
-440,True,2015,2
 440,True,2015,1
 440,True,2015,2
-440,True,2015,2
-440,True,2015,2
-440,True,2015,2
-440,True,2015,2
-440,True,2015,2
+440,True,2015,0
+440,True,2015,0
 440,True,2015,2
 440,True,2015,2
 440,True,2015,0
-440,True,2015,0
+440,True,2015,2
 440,True,2015,2
 440,True,2015,1
 440,True,2015,2
 440,True,2015,2
+440,True,2015,2
+440,True,2015,2
+440,True,2015,2
+440,True,2015,2
+440,True,2015,2
+440,True,2015,2
+440,True,2015,0
+440,True,2015,0
+440,True,2015,2
 440,True,2015,1
+440,True,2015,2
+440,True,2015,2
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
@@ -35486,6 +35490,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
+440,True,2015,1
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
@@ -35580,7 +35585,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,2
 440,True,2015,0
-440,True,2015,2
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
@@ -35618,8 +35622,10 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,1
 440,True,2015,2
 440,True,2015,2
+440,True,2015,2
 440,True,2015,0
 440,False,2015,0
+440,True,2015,2
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
@@ -35645,6 +35651,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
+440,True,2015,1
 440,True,2015,2
 440,True,2015,2
 440,True,2015,1
@@ -35751,6 +35758,7 @@ item_id,recommend,year,sentiment_analysis
 440,False,2015,2
 440,True,2015,1
 440,True,2015,2
+440,False,2015,1
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
@@ -35758,6 +35766,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
+440,True,2015,1
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
@@ -35795,6 +35804,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
+440,True,2015,2
 440,True,2015,1
 440,True,2015,2
 440,True,2015,2
@@ -35816,7 +35826,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
-440,True,2015,1
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
@@ -35872,7 +35881,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,2
 440,True,2015,1
-440,True,2015,1
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
@@ -35887,8 +35895,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,0
 440,False,2015,2
-440,False,2015,0
-440,True,2015,2
 440,True,2015,2
 440,False,2015,0
 440,True,2015,2
@@ -35917,7 +35923,6 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,0
 440,False,2015,1
-440,False,2015,2
 440,True,2015,2
 440,True,2015,2
 440,True,2015,1
@@ -36046,6 +36051,7 @@ item_id,recommend,year,sentiment_analysis
 440,True,2015,2
 440,True,2015,2
 440,True,2015,2
+440,True,2015,1
 440,True,2015,2
 440,True,2015,1
 440,True,2015,2
@@ -36296,6 +36302,7 @@ item_id,recommend,year,sentiment_analysis
 4580,True,2015,1
 4580,True,2015,2
 4580,True,2015,2
+4580,True,2015,2
 458000,True,2014,2
 458590,True,2014,0
 458730,True,2014,2
@@ -36381,6 +36388,7 @@ item_id,recommend,year,sentiment_analysis
 4720,True,2014,2
 472060,True,2014,2
 472680,True,2014,2
+473850,True,2014,2
 473850,False,2014,0
 473850,True,2014,1
 47400,True,2013,0
@@ -36600,7 +36608,6 @@ item_id,recommend,year,sentiment_analysis
 48700,True,2013,2
 48700,True,2013,2
 48700,True,2013,2
-48700,True,2013,2
 48700,True,2014,2
 48700,True,2014,0
 48700,True,2014,2
@@ -36659,7 +36666,6 @@ item_id,recommend,year,sentiment_analysis
 48700,True,2014,2
 48700,True,2014,2
 48700,True,2014,1
-48700,True,2014,2
 48700,True,2014,2
 48700,True,2014,2
 48700,True,2014,2
@@ -36821,7 +36827,6 @@ item_id,recommend,year,sentiment_analysis
 49520,True,2012,2
 49520,True,2012,2
 49520,True,2012,2
-49520,True,2012,2
 49520,True,2012,1
 49520,True,2013,2
 49520,True,2013,2
@@ -36879,7 +36884,6 @@ item_id,recommend,year,sentiment_analysis
 49520,True,2013,2
 49520,True,2013,2
 49520,True,2013,2
-49520,True,2013,2
 49520,True,2013,1
 49520,True,2013,2
 49520,True,2013,2
@@ -36967,6 +36971,7 @@ item_id,recommend,year,sentiment_analysis
 49520,True,2014,2
 49520,True,2014,2
 49520,True,2014,2
+49520,True,2014,1
 49520,True,2014,0
 49520,True,2014,2
 49520,True,2014,2
@@ -36992,7 +36997,6 @@ item_id,recommend,year,sentiment_analysis
 49520,True,2014,2
 49520,True,2014,2
 49520,True,2014,2
-49520,True,2014,2
 49520,True,2014,0
 49520,True,2014,2
 49520,True,2014,2
@@ -37010,7 +37014,6 @@ item_id,recommend,year,sentiment_analysis
 49520,False,2014,0
 49520,True,2014,2
 49520,True,2014,0
-49520,True,2014,2
 49520,True,2014,0
 49520,True,2014,2
 49520,True,2014,2
@@ -37074,7 +37077,6 @@ item_id,recommend,year,sentiment_analysis
 49520,True,2014,1
 49520,True,2014,2
 49520,True,2014,1
-49520,True,2014,2
 49520,True,2014,2
 49520,True,2014,2
 49520,True,2014,2
@@ -37133,7 +37135,6 @@ item_id,recommend,year,sentiment_analysis
 49520,True,2015,1
 49520,True,2015,2
 49520,True,2015,0
-49520,True,2015,2
 49520,True,2015,2
 49520,False,2015,2
 49520,True,2015,1
@@ -37266,6 +37267,7 @@ item_id,recommend,year,sentiment_analysis
 496920,True,2014,2
 496920,True,2014,1
 496920,True,2014,1
+496920,True,2014,1
 496920,True,2014,2
 496920,True,2014,2
 496920,True,2014,2
@@ -37294,6 +37296,7 @@ item_id,recommend,year,sentiment_analysis
 50,False,2014,2
 50,True,2014,2
 50,True,2015,2
+500,True,2011,1
 500,True,2011,0
 500,True,2012,2
 500,True,2012,0
@@ -37318,7 +37321,6 @@ item_id,recommend,year,sentiment_analysis
 50130,True,2013,2
 50130,True,2013,2
 50130,True,2013,2
-50130,True,2013,2
 50130,True,2014,2
 50130,True,2014,2
 50130,True,2014,2
@@ -37327,6 +37329,7 @@ item_id,recommend,year,sentiment_analysis
 50130,True,2014,0
 50130,True,2014,2
 50130,True,2014,2
+50130,False,2014,1
 50130,True,2015,2
 50130,True,2015,2
 50130,True,2015,2
@@ -37508,6 +37511,7 @@ item_id,recommend,year,sentiment_analysis
 51100,True,2015,2
 51100,True,2015,2
 51100,False,2015,2
+51100,False,2015,1
 51100,True,2015,0
 51100,False,2015,0
 51100,False,2015,2
@@ -37530,7 +37534,7 @@ item_id,recommend,year,sentiment_analysis
 51100,True,2015,2
 51100,True,2015,2
 51100,False,2015,0
-51100,False,2015,2
+51100,True,2015,1
 51100,True,2015,2
 51100,True,2015,0
 51100,True,2015,2
@@ -37547,7 +37551,6 @@ item_id,recommend,year,sentiment_analysis
 521990,True,2014,2
 527340,True,2014,0
 550,True,2010,2
-550,True,2011,2
 550,True,2011,2
 550,True,2011,1
 550,True,2011,2
@@ -37644,31 +37647,15 @@ item_id,recommend,year,sentiment_analysis
 550,True,2013,2
 550,True,2013,2
 550,True,2013,2
+550,True,2013,2
 550,False,2013,2
 550,True,2013,2
 550,True,2013,2
 550,True,2013,2
-550,True,2013,1
-550,True,2013,0
-550,True,2013,2
-550,True,2013,2
-550,True,2013,2
-550,True,2013,2
-550,True,2013,2
-550,True,2013,2
-550,True,2013,2
-550,True,2013,2
-550,True,2013,2
-550,True,2013,2
-550,True,2013,0
-550,True,2013,1
-550,True,2013,2
-550,True,2013,2
-550,True,2013,0
-550,True,2013,2
-550,True,2013,0
 550,True,2013,2
 550,True,2013,1
+550,True,2013,0
+550,True,2013,2
 550,True,2013,1
 550,True,2013,2
 550,True,2013,2
@@ -37679,6 +37666,25 @@ item_id,recommend,year,sentiment_analysis
 550,True,2013,2
 550,True,2013,2
 550,True,2013,2
+550,True,2013,0
+550,True,2013,1
+550,True,2013,2
+550,True,2013,2
+550,True,2013,0
+550,True,2013,2
+550,True,2013,0
+550,True,2013,2
+550,True,2013,1
+550,True,2013,1
+550,True,2013,2
+550,True,2013,2
+550,True,2013,2
+550,True,2013,2
+550,True,2013,2
+550,True,2013,2
+550,True,2013,2
+550,True,2013,2
+550,True,2013,2
 550,True,2013,2
 550,True,2013,2
 550,True,2013,2
@@ -37695,6 +37701,7 @@ item_id,recommend,year,sentiment_analysis
 550,True,2013,2
 550,True,2013,2
 550,True,2013,2
+550,True,2013,1
 550,True,2013,2
 550,True,2013,2
 550,True,2013,0
@@ -37738,7 +37745,6 @@ item_id,recommend,year,sentiment_analysis
 550,True,2014,2
 550,True,2014,2
 550,True,2014,2
-550,True,2014,2
 550,True,2014,1
 550,True,2014,0
 550,True,2014,2
@@ -37752,6 +37758,7 @@ item_id,recommend,year,sentiment_analysis
 550,True,2014,2
 550,True,2014,0
 550,True,2014,0
+550,True,2014,2
 550,True,2014,0
 550,True,2014,2
 550,True,2014,1
@@ -37776,6 +37783,7 @@ item_id,recommend,year,sentiment_analysis
 550,True,2014,2
 550,True,2014,2
 550,True,2014,0
+550,True,2014,2
 550,True,2014,2
 550,True,2014,2
 550,True,2014,2
@@ -37877,7 +37885,7 @@ item_id,recommend,year,sentiment_analysis
 550,True,2014,2
 550,True,2014,2
 550,True,2014,2
-550,False,2014,0
+550,True,2014,2
 550,True,2014,2
 550,True,2014,2
 550,True,2014,2
@@ -37924,7 +37932,6 @@ item_id,recommend,year,sentiment_analysis
 550,True,2015,2
 550,True,2015,2
 550,True,2015,0
-550,True,2015,2
 550,True,2015,2
 550,True,2015,2
 550,True,2015,2
@@ -37936,7 +37943,6 @@ item_id,recommend,year,sentiment_analysis
 550,True,2015,2
 550,True,2015,2
 550,True,2015,2
-550,False,2015,1
 550,True,2015,2
 550,True,2015,2
 550,True,2015,2
@@ -37953,7 +37959,6 @@ item_id,recommend,year,sentiment_analysis
 550,True,2015,2
 550,True,2015,2
 550,True,2015,0
-550,True,2015,2
 550,True,2015,0
 550,True,2015,2
 550,True,2015,2
@@ -38057,8 +38062,6 @@ item_id,recommend,year,sentiment_analysis
 55230,True,2013,2
 55230,True,2013,2
 55230,True,2013,2
-55230,True,2013,2
-55230,True,2013,2
 55230,True,2014,2
 55230,True,2014,2
 55230,True,2014,2
@@ -38092,12 +38095,12 @@ item_id,recommend,year,sentiment_analysis
 55230,True,2014,2
 55230,True,2014,2
 55230,True,2014,2
+55230,True,2014,2
 55230,True,2014,1
 55230,True,2014,2
 55230,True,2014,2
 55230,True,2014,1
 55230,True,2014,1
-55230,True,2014,2
 55230,True,2014,2
 55230,True,2014,2
 55230,True,2014,2
@@ -38124,7 +38127,6 @@ item_id,recommend,year,sentiment_analysis
 55230,True,2015,2
 55230,True,2015,0
 55230,True,2015,1
-55230,True,2015,2
 55230,True,2015,2
 55230,True,2015,2
 55230,True,2015,0
@@ -38165,6 +38167,7 @@ item_id,recommend,year,sentiment_analysis
 56400,False,2015,2
 56400,True,2015,2
 56400,True,2015,2
+570,True,2011,2
 570,True,2011,0
 570,True,2012,0
 570,True,2012,2
@@ -38203,6 +38206,7 @@ item_id,recommend,year,sentiment_analysis
 570,True,2013,2
 570,True,2013,2
 570,True,2013,2
+570,True,2013,2
 570,True,2013,1
 570,True,2013,2
 570,True,2013,2
@@ -38217,9 +38221,9 @@ item_id,recommend,year,sentiment_analysis
 570,True,2013,2
 570,True,2013,2
 570,True,2013,2
+570,True,2013,2
 570,True,2013,0
 570,True,2013,1
-570,True,2013,2
 570,True,2013,2
 570,True,2013,1
 570,False,2013,2
@@ -38363,7 +38367,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2013,2
 570,True,2013,2
 570,True,2013,2
-570,True,2013,2
 570,True,2014,2
 570,True,2014,2
 570,True,2014,0
@@ -38417,7 +38420,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2014,2
 570,True,2014,0
 570,True,2014,1
-570,True,2014,2
 570,True,2014,2
 570,True,2014,2
 570,False,2014,1
@@ -38451,13 +38453,13 @@ item_id,recommend,year,sentiment_analysis
 570,True,2014,2
 570,True,2014,2
 570,True,2014,2
-570,True,2014,2
 570,False,2014,2
 570,True,2014,1
 570,True,2014,2
 570,True,2014,2
 570,True,2014,1
 570,False,2014,0
+570,True,2014,2
 570,True,2014,2
 570,False,2014,1
 570,True,2014,0
@@ -38541,6 +38543,7 @@ item_id,recommend,year,sentiment_analysis
 570,True,2014,0
 570,True,2014,2
 570,True,2014,2
+570,True,2014,1
 570,True,2014,2
 570,True,2014,2
 570,True,2014,2
@@ -38600,9 +38603,11 @@ item_id,recommend,year,sentiment_analysis
 570,True,2014,2
 570,True,2014,2
 570,True,2014,2
+570,True,2014,2
 570,False,2014,0
 570,True,2014,0
 570,True,2014,1
+570,True,2014,2
 570,True,2014,2
 570,True,2014,2
 570,True,2014,2
@@ -38770,7 +38775,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2014,2
 570,True,2014,2
 570,True,2014,2
-570,True,2014,2
 570,True,2014,0
 570,True,2014,2
 570,True,2014,0
@@ -38796,7 +38800,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2014,2
 570,False,2014,0
 570,True,2014,0
-570,True,2014,2
 570,True,2014,1
 570,True,2014,2
 570,True,2014,2
@@ -38825,11 +38828,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2015,2
 570,False,2015,2
 570,True,2015,0
-570,True,2015,0
-570,True,2015,2
-570,True,2015,2
-570,True,2015,2
-570,True,2015,1
 570,True,2015,2
 570,True,2015,0
 570,True,2015,2
@@ -38837,14 +38835,19 @@ item_id,recommend,year,sentiment_analysis
 570,True,2015,2
 570,True,2015,1
 570,True,2015,2
-570,True,2015,1
-570,True,2015,2
-570,True,2015,1
-570,True,2015,1
-570,True,2015,2
-570,True,2015,2
-570,True,2015,2
 570,True,2015,0
+570,True,2015,2
+570,True,2015,2
+570,True,2015,2
+570,True,2015,1
+570,True,2015,2
+570,True,2015,1
+570,True,2015,2
+570,True,2015,1
+570,True,2015,1
+570,True,2015,2
+570,True,2015,2
+570,True,2015,2
 570,True,2015,0
 570,True,2015,0
 570,True,2015,1
@@ -38862,11 +38865,11 @@ item_id,recommend,year,sentiment_analysis
 570,True,2015,2
 570,True,2015,2
 570,True,2015,2
+570,True,2015,2
 570,False,2015,1
 570,False,2015,2
 570,False,2015,2
 570,False,2015,2
-570,False,2015,1
 570,True,2015,2
 570,True,2015,2
 570,True,2015,2
@@ -38874,7 +38877,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2015,2
 570,True,2015,0
 570,True,2015,2
-570,True,2015,0
 570,False,2015,0
 570,True,2015,2
 570,True,2015,0
@@ -38951,7 +38953,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2015,1
 570,False,2015,2
 570,True,2015,2
-570,True,2015,2
 570,True,2015,0
 570,True,2015,2
 570,True,2015,0
@@ -38972,7 +38973,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2015,2
 570,True,2015,0
 570,True,2015,2
-570,True,2015,0
 570,True,2015,0
 570,True,2015,0
 570,True,2015,2
@@ -39016,7 +39016,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2015,1
 570,True,2015,2
 570,False,2015,0
-570,True,2015,2
 570,True,2015,2
 570,True,2015,2
 570,True,2015,2
@@ -39093,7 +39092,6 @@ item_id,recommend,year,sentiment_analysis
 570,True,2015,2
 570,False,2015,1
 570,False,2015,2
-570,True,2015,0
 570,True,2015,2
 570,True,2015,2
 570,True,2015,0
@@ -39209,6 +39207,7 @@ item_id,recommend,year,sentiment_analysis
 57900,False,2014,2
 57900,True,2014,2
 57900,True,2014,2
+57900,True,2014,2
 57900,False,2014,0
 58200,True,2011,2
 58230,True,2015,2
@@ -39264,7 +39263,6 @@ item_id,recommend,year,sentiment_analysis
 6060,True,2013,2
 6060,True,2013,2
 6060,True,2013,2
-6060,True,2013,2
 6060,True,2013,1
 6060,True,2013,1
 6060,True,2013,0
@@ -39303,7 +39301,6 @@ item_id,recommend,year,sentiment_analysis
 6060,True,2014,2
 6060,True,2014,2
 6060,True,2014,2
-6060,True,2014,2
 6060,True,2014,1
 6060,True,2014,2
 6060,True,2014,2
@@ -39314,7 +39311,6 @@ item_id,recommend,year,sentiment_analysis
 6060,True,2015,2
 6060,True,2015,2
 6060,True,2015,0
-6060,True,2015,1
 6060,False,2015,0
 6060,True,2015,1
 6060,True,2015,2
@@ -39323,9 +39319,7 @@ item_id,recommend,year,sentiment_analysis
 6060,True,2015,2
 6060,True,2015,2
 6060,True,2015,2
-6060,True,2015,2
 6060,True,2015,0
-6060,True,2015,1
 6060,True,2015,0
 6060,True,2015,2
 6060,True,2015,2
@@ -39338,8 +39332,6 @@ item_id,recommend,year,sentiment_analysis
 6060,True,2015,2
 6060,True,2015,2
 6060,True,2015,0
-6060,True,2015,1
-6060,True,2015,1
 6060,True,2015,2
 6060,True,2015,0
 6060,True,2015,2
@@ -39376,6 +39368,7 @@ item_id,recommend,year,sentiment_analysis
 620,True,2011,2
 620,True,2011,2
 620,True,2011,2
+620,True,2011,2
 620,True,2012,2
 620,True,2012,2
 620,True,2012,2
@@ -39387,6 +39380,7 @@ item_id,recommend,year,sentiment_analysis
 620,True,2012,1
 620,True,2012,2
 620,True,2012,2
+620,True,2012,1
 620,True,2012,1
 620,True,2012,1
 620,True,2012,2
@@ -39452,6 +39446,7 @@ item_id,recommend,year,sentiment_analysis
 620,True,2013,2
 620,True,2013,2
 620,True,2013,2
+620,True,2013,2
 620,True,2013,1
 620,True,2013,2
 620,True,2013,0
@@ -39495,7 +39490,6 @@ item_id,recommend,year,sentiment_analysis
 620,True,2014,2
 620,True,2014,2
 620,True,2014,0
-620,True,2014,2
 620,True,2014,2
 620,True,2014,2
 620,True,2014,2
@@ -39564,8 +39558,6 @@ item_id,recommend,year,sentiment_analysis
 620,True,2015,2
 620,True,2015,2
 620,True,2015,2
-620,True,2015,2
-620,True,2015,1
 620,True,2015,2
 620,True,2015,2
 620,True,2015,2
@@ -39651,6 +39643,7 @@ item_id,recommend,year,sentiment_analysis
 630,True,2012,2
 630,True,2013,2
 630,True,2013,2
+630,True,2013,1
 630,True,2013,2
 630,True,2013,2
 630,True,2013,2
@@ -39662,6 +39655,7 @@ item_id,recommend,year,sentiment_analysis
 630,True,2014,2
 630,True,2014,0
 630,False,2014,2
+630,True,2014,2
 630,True,2014,2
 630,True,2014,0
 630,True,2014,2
@@ -39680,6 +39674,7 @@ item_id,recommend,year,sentiment_analysis
 630,True,2014,2
 630,True,2014,2
 630,False,2014,0
+630,True,2014,1
 630,True,2014,0
 630,True,2014,2
 630,True,2015,2
@@ -39700,6 +39695,7 @@ item_id,recommend,year,sentiment_analysis
 63200,True,2013,1
 63380,True,2014,2
 63380,True,2014,1
+63380,True,2014,2
 63380,True,2014,2
 63380,True,2014,0
 63380,False,2014,0
@@ -39817,7 +39813,6 @@ item_id,recommend,year,sentiment_analysis
 65800,True,2013,2
 65800,True,2013,2
 65800,True,2013,2
-65800,True,2013,2
 65800,True,2014,2
 65800,True,2014,2
 65800,True,2014,2
@@ -39912,9 +39907,9 @@ item_id,recommend,year,sentiment_analysis
 6860,True,2015,2
 6860,True,2015,2
 6860,True,2015,2
+6860,True,2015,2
 6860,True,2015,0
 6870,False,2014,0
-6880,True,2011,2
 6880,True,2014,1
 6880,True,2015,0
 6880,True,2015,2
@@ -39990,6 +39985,7 @@ item_id,recommend,year,sentiment_analysis
 70,True,2015,2
 7000,True,2012,2
 70000,True,2012,0
+70000,True,2013,1
 70000,True,2013,2
 70000,True,2013,2
 70000,False,2013,0
@@ -40082,7 +40078,6 @@ item_id,recommend,year,sentiment_analysis
 71340,True,2015,2
 71390,True,2014,2
 7200,True,2010,2
-7200,True,2014,2
 7200,False,2014,2
 72000,True,2012,2
 72000,True,2013,2
@@ -40186,7 +40181,6 @@ item_id,recommend,year,sentiment_analysis
 72850,True,2013,2
 72850,True,2013,0
 72850,True,2013,2
-72850,True,2013,2
 72850,True,2013,1
 72850,True,2013,2
 72850,True,2013,2
@@ -40217,7 +40211,6 @@ item_id,recommend,year,sentiment_analysis
 72850,True,2013,2
 72850,True,2013,2
 72850,True,2013,2
-72850,True,2013,0
 72850,True,2013,0
 72850,True,2013,2
 72850,True,2013,2
@@ -40325,6 +40318,7 @@ item_id,recommend,year,sentiment_analysis
 72850,True,2014,2
 72850,True,2014,2
 72850,True,2014,2
+72850,True,2014,2
 72850,True,2014,0
 72850,True,2014,2
 72850,False,2014,1
@@ -40355,7 +40349,6 @@ item_id,recommend,year,sentiment_analysis
 72850,True,2014,2
 72850,True,2014,2
 72850,True,2014,2
-72850,True,2014,2
 72850,True,2014,1
 72850,True,2014,2
 72850,True,2014,0
@@ -40390,6 +40383,7 @@ item_id,recommend,year,sentiment_analysis
 72850,True,2014,2
 72850,True,2014,2
 72850,True,2014,2
+72850,False,2014,1
 72850,True,2014,2
 72850,True,2014,0
 72850,True,2014,2
@@ -40505,6 +40499,7 @@ item_id,recommend,year,sentiment_analysis
 72850,False,2015,2
 72850,True,2015,2
 72850,True,2015,2
+72850,True,2015,2
 72850,True,2015,1
 72850,True,2015,0
 72850,True,2015,0
@@ -40567,6 +40562,7 @@ item_id,recommend,year,sentiment_analysis
 72850,True,2015,2
 72850,True,2015,2
 72850,True,2015,0
+72850,True,2015,2
 72850,True,2015,2
 72850,True,2015,2
 72850,True,2015,2
@@ -40673,7 +40669,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2013,2
 730,True,2013,2
 730,True,2013,2
-730,True,2013,2
 730,True,2013,1
 730,False,2013,0
 730,True,2013,2
@@ -40717,7 +40712,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2013,2
 730,True,2013,1
 730,True,2013,0
-730,True,2013,2
 730,True,2013,2
 730,True,2013,2
 730,True,2013,2
@@ -40785,7 +40779,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2013,2
 730,True,2013,2
 730,True,2013,2
-730,True,2013,2
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
@@ -40798,7 +40791,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
-730,True,2014,0
+730,True,2014,1
 730,True,2014,2
 730,True,2014,2
 730,True,2014,0
@@ -40806,6 +40799,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,0
+730,True,2014,2
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
@@ -40817,7 +40811,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,0
-730,True,2014,2
 730,True,2014,1
 730,True,2014,2
 730,True,2014,2
@@ -40833,7 +40826,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,0
-730,True,2014,1
 730,True,2014,1
 730,False,2014,2
 730,True,2014,2
@@ -40895,6 +40887,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,0
 730,True,2014,2
 730,True,2014,2
+730,False,2014,2
 730,True,2014,1
 730,True,2014,1
 730,True,2014,2
@@ -40915,7 +40908,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
-730,True,2014,2
 730,True,2014,0
 730,True,2014,2
 730,True,2014,2
@@ -40936,12 +40928,14 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,0
 730,True,2014,2
 730,True,2014,2
+730,True,2014,0
 730,True,2014,2
 730,True,2014,1
 730,True,2014,0
 730,True,2014,2
 730,True,2014,2
 730,True,2014,1
+730,True,2014,2
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
@@ -40978,10 +40972,10 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,1
 730,True,2014,2
 730,True,2014,0
-730,True,2014,1
 730,True,2014,0
 730,True,2014,2
 730,True,2014,1
+730,True,2014,2
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
@@ -41060,6 +41054,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
+730,True,2014,2
 730,False,2014,0
 730,True,2014,2
 730,True,2014,2
@@ -41070,6 +41065,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,1
+730,True,2014,2
 730,True,2014,1
 730,True,2014,0
 730,True,2014,0
@@ -41165,7 +41161,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
-730,True,2014,2
 730,True,2014,1
 730,True,2014,2
 730,True,2014,1
@@ -41192,12 +41187,12 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
+730,True,2014,2
 730,True,2014,1
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
 730,True,2014,0
-730,True,2014,2
 730,True,2014,0
 730,True,2014,2
 730,True,2014,1
@@ -41288,7 +41283,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,1
 730,True,2014,1
-730,True,2014,1
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
@@ -41335,7 +41329,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
-730,True,2014,1
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
@@ -41353,6 +41346,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
+730,True,2014,2
 730,True,2014,1
 730,True,2014,2
 730,True,2014,2
@@ -41366,7 +41360,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,0
 730,True,2014,2
-730,False,2014,0
 730,True,2014,0
 730,True,2014,2
 730,True,2014,2
@@ -41392,7 +41385,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,2
 730,True,2014,2
 730,False,2014,2
-730,True,2014,2
 730,True,2014,2
 730,True,2014,2
 730,True,2014,2
@@ -41492,12 +41484,14 @@ item_id,recommend,year,sentiment_analysis
 730,True,2014,0
 730,True,2014,2
 730,False,2014,0
+730,False,2014,1
 730,True,2014,2
 730,True,2014,1
 730,True,2014,0
 730,True,2014,2
 730,True,2014,2
 730,True,2014,0
+730,True,2014,1
 730,True,2014,2
 730,True,2014,2
 730,True,2014,1
@@ -41608,6 +41602,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
+730,True,2015,2
 730,True,2015,0
 730,True,2015,2
 730,False,2015,0
@@ -41627,7 +41622,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,1
 730,True,2015,2
-730,True,2015,2
 730,True,2015,1
 730,True,2015,2
 730,True,2015,2
@@ -41640,7 +41634,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
-730,False,2015,0
 730,False,2015,0
 730,True,2015,2
 730,True,2015,2
@@ -41753,6 +41746,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,2
 730,True,2015,0
+730,True,2015,2
 730,True,2015,1
 730,True,2015,1
 730,True,2015,2
@@ -41786,6 +41780,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,0
 730,False,2015,0
 730,True,2015,2
+730,True,2015,2
 730,True,2015,0
 730,True,2015,2
 730,True,2015,2
@@ -41825,8 +41820,8 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,0
 730,True,2015,2
 730,True,2015,2
-730,True,2015,0
 730,True,2015,2
+730,True,2015,0
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
@@ -41859,7 +41854,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,1
 730,True,2015,0
 730,True,2015,2
-730,True,2015,0
 730,True,2015,1
 730,True,2015,0
 730,True,2015,2
@@ -41899,117 +41893,6 @@ item_id,recommend,year,sentiment_analysis
 730,False,2015,0
 730,True,2015,2
 730,True,2015,1
-730,True,2015,2
-730,False,2015,1
-730,True,2015,2
-730,True,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,2
-730,False,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,0
-730,True,2015,1
-730,True,2015,2
-730,True,2015,1
-730,True,2015,2
-730,True,2015,0
-730,False,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,False,2015,2
-730,True,2015,2
-730,False,2015,2
-730,True,2015,2
-730,True,2015,1
-730,True,2015,1
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,1
-730,False,2015,1
-730,False,2015,2
-730,True,2015,2
-730,False,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,2
-730,True,2015,1
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,1
-730,True,2015,2
-730,True,2015,0
-730,True,2015,2
-730,True,2015,2
-730,False,2015,0
-730,False,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,1
-730,True,2015,1
-730,False,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,1
-730,True,2015,2
-730,True,2015,2
-730,True,2015,2
-730,False,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,1
-730,True,2015,2
-730,False,2015,0
-730,True,2015,2
-730,True,2015,0
-730,True,2015,2
-730,True,2015,2
-730,True,2015,1
-730,True,2015,2
-730,True,2015,2
-730,True,2015,0
-730,True,2015,2
 730,True,2015,2
 730,False,2015,1
 730,True,2015,2
@@ -42018,6 +41901,118 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,2
+730,False,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,0
+730,True,2015,1
+730,True,2015,2
+730,True,2015,1
+730,True,2015,2
+730,True,2015,0
+730,False,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,False,2015,2
+730,True,2015,2
+730,False,2015,2
+730,True,2015,2
+730,True,2015,1
+730,True,2015,1
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,1
+730,False,2015,1
+730,False,2015,2
+730,True,2015,2
+730,False,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,2
+730,True,2015,1
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,1
+730,True,2015,2
+730,True,2015,0
+730,True,2015,2
+730,True,2015,2
+730,False,2015,0
+730,False,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,1
+730,True,2015,1
+730,False,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,1
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,False,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,1
+730,True,2015,2
+730,False,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,1
+730,True,2015,2
+730,True,2015,2
+730,True,2015,0
+730,True,2015,2
+730,True,2015,2
+730,False,2015,1
+730,True,2015,2
+730,True,2015,0
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
+730,True,2015,2
 730,False,2015,2
 730,True,2015,0
 730,True,2015,2
@@ -42040,6 +42035,7 @@ item_id,recommend,year,sentiment_analysis
 730,False,2015,2
 730,True,2015,1
 730,True,2015,1
+730,True,2015,0
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
@@ -42157,11 +42153,13 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,0
 730,True,2015,0
 730,True,2015,2
+730,True,2015,2
 730,True,2015,0
 730,True,2015,1
 730,True,2015,2
 730,True,2015,1
 730,True,2015,0
+730,True,2015,2
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
@@ -42185,7 +42183,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,1
 730,True,2015,2
-730,True,2015,1
 730,True,2015,2
 730,True,2015,0
 730,True,2015,0
@@ -42209,7 +42206,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,0
 730,True,2015,2
 730,True,2015,2
-730,True,2015,2
 730,False,2015,2
 730,True,2015,2
 730,True,2015,2
@@ -42218,6 +42214,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,0
 730,True,2015,0
 730,True,2015,1
+730,True,2015,2
 730,True,2015,2
 730,False,2015,1
 730,False,2015,0
@@ -42227,8 +42224,8 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
-730,False,2015,0
 730,True,2015,2
+730,False,2015,1
 730,True,2015,0
 730,False,2015,2
 730,True,2015,2
@@ -42246,7 +42243,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,0
 730,True,2015,0
 730,True,2015,2
-730,True,2015,1
 730,True,2015,2
 730,True,2015,2
 730,False,2015,2
@@ -42326,7 +42322,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,1
 730,True,2015,2
-730,True,2015,2
 730,True,2015,1
 730,True,2015,2
 730,True,2015,2
@@ -42339,7 +42334,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,0
 730,True,2015,2
-730,False,2015,2
 730,True,2015,2
 730,True,2015,2
 730,False,2015,0
@@ -42521,6 +42515,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,1
 730,True,2015,2
+730,True,2015,2
 730,True,2015,0
 730,True,2015,2
 730,True,2015,2
@@ -42579,10 +42574,10 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,0
 730,True,2015,2
 730,True,2015,1
-730,True,2015,0
 730,True,2015,1
 730,True,2015,2
 730,True,2015,2
+730,True,2015,1
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
@@ -42604,6 +42599,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,2
 730,True,2015,0
+730,True,2015,2
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
@@ -42667,6 +42663,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,1
 730,True,2015,2
+730,True,2015,2
 730,True,2015,1
 730,True,2015,2
 730,True,2015,2
@@ -42700,7 +42697,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,2
 730,False,2015,2
-730,True,2015,2
 730,True,2015,2
 730,True,2015,2
 730,True,2015,2
@@ -42753,7 +42749,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,1
 730,True,2015,2
-730,True,2015,1
+730,True,2015,2
 730,True,2015,2
 730,True,2015,1
 730,True,2015,2
@@ -42878,7 +42874,6 @@ item_id,recommend,year,sentiment_analysis
 730,False,2015,2
 730,True,2015,2
 730,False,2015,2
-730,True,2015,2
 730,True,2015,1
 730,True,2015,2
 730,True,2015,2
@@ -42952,6 +42947,7 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,2
 730,True,2015,1
+730,False,2015,1
 730,True,2015,2
 730,True,2015,2
 730,False,2015,0
@@ -42983,6 +42979,7 @@ item_id,recommend,year,sentiment_analysis
 730,False,2015,1
 730,True,2015,1
 730,False,2015,0
+730,True,2015,2
 730,False,2015,1
 730,True,2015,2
 730,True,2015,2
@@ -42999,7 +42996,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,0
 730,True,2015,2
 730,True,2015,2
-730,True,2015,2
 730,True,2015,0
 730,True,2015,0
 730,False,2015,0
@@ -43034,7 +43030,6 @@ item_id,recommend,year,sentiment_analysis
 730,True,2015,2
 730,True,2015,2
 730,True,2015,0
-730,True,2015,2
 730,True,2015,2
 730,False,2015,2
 730,True,2015,1
@@ -43150,6 +43145,7 @@ item_id,recommend,year,sentiment_analysis
 73220,True,2014,2
 7510,True,2013,2
 7520,True,2012,2
+7520,True,2013,2
 7520,False,2014,0
 7520,False,2014,2
 7520,True,2014,2
@@ -43237,7 +43233,6 @@ item_id,recommend,year,sentiment_analysis
 7940,True,2015,1
 80,True,2013,2
 80,True,2014,0
-80,False,2014,1
 80,True,2015,2
 80,True,2015,2
 80,True,2015,2
@@ -43288,9 +43283,7 @@ item_id,recommend,year,sentiment_analysis
 8190,True,2013,0
 8190,True,2013,2
 8190,True,2013,2
-8190,True,2013,2
 8190,True,2013,0
-8190,True,2013,2
 8190,True,2013,2
 8190,True,2013,2
 8190,True,2013,0
@@ -43346,7 +43339,6 @@ item_id,recommend,year,sentiment_analysis
 8190,True,2014,2
 8190,True,2014,1
 8190,True,2014,2
-8190,False,2014,1
 8190,True,2014,1
 8190,True,2014,2
 8190,True,2014,2
@@ -43415,7 +43407,6 @@ item_id,recommend,year,sentiment_analysis
 8500,False,2014,0
 8500,False,2014,0
 8500,False,2014,2
-8500,False,2014,1
 8500,True,2015,2
 8500,True,2015,2
 8500,True,2015,2
@@ -43429,7 +43420,6 @@ item_id,recommend,year,sentiment_analysis
 8800,True,2013,2
 8850,True,2013,2
 8850,False,2014,2
-8850,True,2014,2
 8850,True,2014,2
 8850,True,2014,2
 8850,True,2014,2
@@ -43716,6 +43706,7 @@ item_id,recommend,year,sentiment_analysis
 8930,True,2014,2
 8930,True,2014,2
 8930,True,2014,2
+8930,True,2014,2
 8930,True,2014,0
 8930,True,2014,2
 8930,True,2014,1
@@ -43837,7 +43828,6 @@ item_id,recommend,year,sentiment_analysis
 8930,True,2014,2
 8930,True,2014,2
 8930,True,2014,2
-8930,True,2014,2
 8930,True,2014,0
 8930,True,2014,2
 8930,True,2014,2
@@ -43904,8 +43894,10 @@ item_id,recommend,year,sentiment_analysis
 8930,True,2015,2
 8930,True,2015,2
 8930,True,2015,2
+8930,True,2015,2
 8930,True,2015,1
 8930,True,2015,1
+8930,True,2015,2
 8930,True,2015,2
 8930,True,2015,0
 8930,True,2015,2
@@ -43963,8 +43955,6 @@ item_id,recommend,year,sentiment_analysis
 8980,True,2014,2
 8980,True,2015,2
 8980,True,2015,2
-8980,True,2015,2
-8980,True,2015,2
 8980,True,2015,0
 8980,True,2015,2
 8980,True,2015,2
@@ -43980,6 +43970,7 @@ item_id,recommend,year,sentiment_analysis
 91310,False,2011,0
 91310,True,2011,2
 91310,True,2011,0
+91310,True,2012,1
 91310,True,2012,2
 91310,True,2012,2
 91310,True,2012,2
@@ -44197,6 +44188,7 @@ item_id,recommend,year,sentiment_analysis
 95400,True,2015,2
 95400,True,2015,2
 95400,True,2015,2
+95400,True,2015,2
 95700,True,2014,2
 96000,True,2014,2
 96000,True,2014,2
@@ -44210,7 +44202,6 @@ item_id,recommend,year,sentiment_analysis
 96100,False,2015,2
 96100,True,2015,2
 96100,True,2015,0
-96100,False,2015,2
 96300,True,2012,2
 96300,True,2013,2
 96300,False,2014,0
@@ -44249,7 +44240,6 @@ item_id,recommend,year,sentiment_analysis
 98500,True,2013,2
 9860,True,2012,2
 98600,True,2012,2
-98600,True,2014,1
 9870,True,2014,1
 9870,True,2014,2
 9870,True,2014,2
@@ -44267,7 +44257,6 @@ item_id,recommend,year,sentiment_analysis
 9900,True,2013,2
 9900,True,2013,2
 9900,True,2013,2
-9900,True,2013,1
 9900,True,2013,0
 9900,False,2014,0
 9900,False,2014,0
@@ -44382,6 +44371,7 @@ item_id,recommend,year,sentiment_analysis
 99900,True,2015,1
 99900,False,2015,2
 99900,True,2015,2
+99900,True,2015,1
 99900,True,2015,2
 99900,True,2015,2
 99900,True,2015,2

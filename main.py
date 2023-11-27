@@ -13,6 +13,9 @@ from functions import UsersRecommend
 from functions import sentiment_analysis
 from functions import UsersWorstDeveloper
 from functions import PlayTimeGenre
+from functions import UserForGenre
+from functions import recomendacion_usuario
+#from modelo_item_item import recomendacion_usuario
 
 
 # In[ ]:
@@ -21,12 +24,17 @@ from functions import PlayTimeGenre
 # Crea una instancia de la aplicación FastAPI
 app = FastAPI()
 
+
+# In[ ]:
+
+
 @app.get("/")
 async def root():
     return {"Mensaje": "Proyecto Individual"}
 
 
 # In[ ]:
+
 
 @app.get("/PlayTimeGenre/{genero}")
 async def user(genero: str):
@@ -40,6 +48,24 @@ async def user(genero: str):
     except Exception as e:
         traceback.print_exc()  # Imprime la traza de la pila
         raise HTTPException(status_code=500, detail=f"Error interno del servidor: {str(e)}")
+
+
+# In[ ]:
+
+
+@app.get("/UserForGenre/{genero}")
+async def user(genero: str):
+    try:
+        result = UserForGenre(genero)
+        return result
+    
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=500, detail=f"Error al cargar el archivo PlayTimeGenre.csv: {str(e)}")
+
+    except Exception as e:
+        traceback.print_exc()  # Imprime la traza de la pila
+        raise HTTPException(status_code=500, detail=f"Error interno del servidor: {str(e)}")
+
 
 # In[ ]:
 
@@ -56,6 +82,7 @@ async def user(year: str):
     except FileNotFoundError as e:
         raise HTTPException(status_code=500, detail=f"Error al cargar el archivo UsersRecommend.csv: {str(e)}")
 
+
 # In[ ]:
 
 
@@ -71,6 +98,7 @@ async def user(year: str):
     except FileNotFoundError as e:
         raise HTTPException(status_code=500, detail=f"Error al cargar el archivo UsersRecommend.csv: {str(e)}")
 
+
 # In[ ]:
 
 
@@ -83,3 +111,18 @@ async def user(empresa_desarrolladora: str):
     
     except FileNotFoundError as e:
         raise HTTPException(status_code=500, detail=f"Error al cargar el archivo UsersRecommend.csv: {str(e)}")
+
+
+# In[ ]:
+
+
+@app.get("/recomendacion_usuario/{item_id}")
+async def recomendacion(item_id: str):
+    try:
+        item_id = int(item_id) 
+        
+        resultado= recomendacion_usuario(item_id)
+        return resultado
+    except Exception as e:
+        return {"error":str(e)}
+
