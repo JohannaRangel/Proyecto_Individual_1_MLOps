@@ -38,7 +38,7 @@ Grabé un video explicativo que muestra el funcionamiento de la API, consultas r
 
 **3. [/Modelos](Modelos/):** Contiene el código y los resultados de los modelos de recomendación implementados.<br />
 
-**4. [/Datos](Datos/):** Almacena los datasets utilizados y, si es posible, una versión limpia y procesada de los mismos.<br />
+**4. [/Datos](Datasets/):** Almacena los datasets utilizados y, si es posible, una versión limpia y procesada de los mismos.<br />
 
 **4. [/Video](Video/):** Contiene el video explicativo del proyecto.<br />
 
