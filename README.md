@@ -32,13 +32,13 @@ Grabé un video explicativo que muestra el funcionamiento de la API, consultas r
 <br />
 
 ## Estructura del Repositorio <br />
-**1. [/Notebooks](notebooks/):** Contiene los Jupyter Notebooks donde se realizaron las extracciones, transformaciones y carga de datos (ETL) y análisis exploratorio de los datos (EDA).<br />
+**1. [/Notebooks](Notebooks/):** Contiene los Jupyter Notebooks donde se realizaron las extracciones, transformaciones y carga de datos (ETL) y análisis exploratorio de los datos (EDA).<br />
 
-**2. [/API](api/):** Almacena el código correspondiente a la implementación de la API con FastAPI.<br />
+**2. [/API](Api/):** Almacena el código correspondiente a la implementación de la API con FastAPI.<br />
 
-**3. [/Modelos](modelos/):** Contiene el código y los resultados de los modelos de recomendación implementados.<br />
+**3. [/Modelos](Modelos/):** Contiene el código y los resultados de los modelos de recomendación implementados.<br />
 
-**4. [/Datos](datos/):** Almacena los datasets utilizados y, si es posible, una versión limpia y procesada de los mismos.<br />
+**4. [/Datos](Datos/):** Almacena los datasets utilizados y, si es posible, una versión limpia y procesada de los mismos.<br />
 
-**4. [/Video](video/):** Contiene el video explicativo del proyecto.<br />
+**4. [/Video](Video/):** Contiene el video explicativo del proyecto.<br />
 
