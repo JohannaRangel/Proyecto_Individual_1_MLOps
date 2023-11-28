@@ -15,7 +15,7 @@ El propósito central es la creación del primer modelo de Machine Learning (end
 **1. Ingeniería de Datos (ETL y API)** <br />
 - **1.1 *Transformaciones de Datos:*** Inicialmente, recibí tres (3) archivos en formato JSON, los cuales están almacenados en la carpeta **Input** de un repositorio público en **[Google Drive](https://bit.ly/47J98PN).** Realicé transformaciones esenciales para cargar los conjuntos de datos con el formato adecuado. Estas transformaciones se llevaron a cabo con el propósito de optimizar tanto el rendimiento de la API como el entrenamiento del modelo.<br />
   + [australian_user_reviews.json](https://bit.ly/49LHpQo): Contiene las reseñas de juegos específicamente realizadas por usuarios australianos. Se puede hacer referencia al notebook [ETL_user_reviews](Notebooks/ETL_user_reviews.ipynb) para obtener más detalles sobre cómo se procesaron las reseñas dando como resultado un nuevo archivo con datos limpios, user_reviews_cleaned.<br />
-  + [output_steam_games.json](https://bit.ly/49MGNKk)<br />
+  + [output_steam_games.json](https://bit.ly/49MGNKk): Este proporciona información detallada sobre los juegos disponibles en la plataforma Steam. Incluye datos como géneros, etiquetas, especificaciones, desarrolladores, año de lanzamiento, precio y otros atributos relevantes de cada juego. En el notebook ETL_steam_game, puedes revisar el proceso de limpieza y transformación de datos, el cual culmina con la creación de un nuevo archivo llamado steam_games_cleaned. <br /> 
   + [australian_users_items.json](https://bit.ly/46AauM0)<br />
   
 -  
