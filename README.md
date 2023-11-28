@@ -87,4 +87,4 @@ uvicorn main:app --reload
 
 ## Autor <br />
 #### Johanna Rangel. <br />
-Para cualquier sugerencia/recomendación/mejora respecto al proyecto con toda libertad puedes contactarme por [LinkedIn](www.linkedin.com/in/rangeljohanna)<br />
+Para cualquier duda/sugerencia/recomendación/mejora respecto al proyecto con toda libertad puedes contactarme por [LinkedIn](www.linkedin.com/in/rangeljohanna)<br />
