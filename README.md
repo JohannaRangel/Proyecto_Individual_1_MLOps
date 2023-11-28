@@ -13,10 +13,16 @@ El propósito central es la creación del primer modelo de Machine Learning (end
 ![Etapas](https://github.com/JohannaRangel/Proyecto_Individual_1_MLOps/raw/main/assets/Etapas.png)  
 <br />
 **1. Ingeniería de Datos (ETL y API)** <br />
-- *Transformaciones de Datos:* Realicé transformaciones necesarias para leer los datasets con el formato correcto, siempre con el objetivo de optimizar el rendimiento de la API y el entrenamiento del modelo. <br />
+- **1.1 *Transformaciones de Datos:*** Inicialmente, recibí tres (3) archivos en formato JSON, los cuales están almacenados en la carpeta Input de un repositorio público en **[Google Drive](https://bit.ly/47J98PN/).** Realicé transformaciones esenciales para cargar los conjuntos de datos con el formato adecuado. Estas transformaciones se llevaron a cabo con el propósito de optimizar tanto el rendimiento de la API como el entrenamiento del modelo.<br />
+  + [australian_user_reviews.json](https://bit.ly/49LHpQo): Contiene las reseñas de juegos específicamente realizadas por usuarios australianos. Se puede hacer referencia al notebook [ETL_user_reviews](Notebooks/ETL_user_reviews.ipynb) para obtener más detalles sobre cómo se procesaron las reseñas dando como resultado un nuevo archivo con datos limpios, user_reviews_cleaned.<br />
+  + [output_steam_games.json](https://bit.ly/49MGNKk)<br />
+  + [australian_users_items.json](https://bit.ly/46AauM0)<br />
+  
+-  
 - *Feature Engineering:* Creé la columna **``` sentiment_analysis ```** aplicando análisis de sentimiento a las reseñas de los usuarios. <br />
 - *Desarrollo de API:* Implementé una API con FastAPI y Render que proporciona consultas sobre información de videojuegos. <br />
 
+<br />
 **2. Análisis Exploratorio de Datos (EDA)** <br />
 Investigé relaciones entre variables, identifiqué outliers y busqué patrones interesantes en los datos.<br />
 
