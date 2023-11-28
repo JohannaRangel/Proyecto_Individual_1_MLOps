@@ -19,40 +19,40 @@ El propósito central es la creación del primer modelo de Machine Learning (end
   + [output_steam_games.json](https://bit.ly/49MGNKk): Este archivo proporciona información detallada sobre los juegos disponibles en la plataforma Steam. Incluye datos como géneros, etiquetas, especificaciones, desarrolladores, año de lanzamiento, precio y otros atributos relevantes de cada juego. En el notebook [ETL_steam_game](Notebooks/ETL_steam_game.ipynb) puedes revisar el proceso de limpieza y transformación de datos, el cual culmina con la creación de un nuevo archivo llamado [steam_games_cleaned.csv](Datasets/Archivos_Limpios/steam_games_cleaned.csv). <br /> 
   + [australian_users_items.json](https://bit.ly/46AauM0): El archivo australian_users_items.json contiene información sobre los ítems relacionados con usuarios australianos. Este conjunto de datos ha pasado por un proceso de Extracción, Transformación y Carga (ETL), que se detalla en el notebook [ETL_user_items](Notebooks/ETL_user_items.ipynb). Como resultado de este proceso, se generó un nuevo archivo [user_items_cleaned.csv](Datasets/Archivos_Limpios/user_items_cleaned.csv) para facilitar su manipulación y análisis, brindando así una estructura más amigable y lista para su integración en el modelo.<br />
   
-- **1.2 *Feature Engineering:*** Creé la columna **``` sentiment_analysis ```** aplicando análisis de sentimiento a las reseñas de los usuarios, puede ver el detalle en el notebook [ETL_user_reviews](Notebooks/ETL_user_reviews.ipynb). <br />
+- **1.2 *Feature Engineering:*** Creé la columna **``` sentiment_analysis ```** aplicando análisis de sentimiento a las reseñas de los usuarios. Se optó por utilizar la biblioteca NLTK (Natural Language Toolkit) con el analizador de sentimientos de Vader, que proporciona una puntuación compuesta que puede ser utilizada para clasificar la polaridad de las reseñas en negativas (valor '0'), neutrales (valor '1') o positivas (valor '2'). A las reseñas escritas ausentes, se les asignó el valor de '1'.
+puede ver el detalle del desarrollo en el notebook [ETL_user_reviews](Notebooks/ETL_user_reviews.ipynb) y profundizar un poco más en el an{alisis en el [EDA_Análisis Exploratorio de Datos](Notebooks/EDA_AnálisisExploratorioDatos.ipynb). <br />
 
-- **1.3 *Desarrollo de API:*** Implementé una API con FastAPI y se deployó en Render, ésta proporciona cinco (5) consultas sobre información de videojuegos. Puede ver el detalle del código en los notebooks [Funciones](Notebooks/Funciones.ipynb) y [Consultas](Consultas/Funciones.ipynb).<br />
+- **1.3 *Desarrollo de API:*** Implementé una API con FastAPI y se deployó en Render, ésta proporciona cinco (5) consultas sobre información de videojuegos. Puede ver el detalle del código en los notebooks [Funciones](Notebooks/Funciones.ipynb) y [Consultas](Notebooks/Funciones.ipynb).<br />
   + Endpoint 1 (PlayTimeGenre): Devuelve año con mas horas jugadas para un género dado.<br />
   + Endpoint 2 (UserForGenre): Devuelve el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año.<br />
   + Endpoint 3 (UsersRecommend): Devuelve el top 3 de juegos MÁS recomendados por usuarios para el año dado.<br />
   + Endpoint 4 (UsersWorstDeveloper): Devuelve el top 3 de desarrolladoras con juegos MENOS recomendados por usuarios para el año dado.<br />
-  + Endpoint 5 (sentiment_analysis): Según la empresa desarrolladora, se devuelve un diccionario con el nombre de la desarrolladora como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor
-Para acceder a la funcionalidad completa de la API y explorar las recomendaciones de juegos, puedes visitar [URL de la API]([Consultas](https://proyecto-individual-1-mlops-9770.onrender.com/docs)). En este sitio, encontrarás diversas funciones, desde obtener las mejores recomendaciones de juegos hasta explorar análisis de sentimientos y estadísticas detalladas. ¡Disfruta explorando el mundo de los juegos con nuestra API <br />
+  + Endpoint 5 (sentiment_analysis): Según la empresa desarrolladora, se devuelve un diccionario con el nombre de la desarrolladora como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor.<br />
+Para acceder a la funcionalidad completa de la API y explorar las recomendaciones de juegos, puedes visitar este enlace [URL de la API](https://proyecto-individual-1-mlops-9770.onrender.com/docs). En este sitio, encontrarás las diversas funciones desarrolladas. ¡Disfruta explorando!.
   
 **2. Análisis Exploratorio de Datos (EDA)** <br />
-Investigé relaciones entre variables, identifiqué outliers y busqué patrones interesantes en los datos.<br />
+Investigé relaciones entre variables, identifiqué outliers y busqué patrones interesantes en los datos. El notebook [EDA_Análisis Exploratorio de Datos](Notebooks/EDA_AnálisisExploratorioDatos.ipynb)<br />
 
 **3. Modelos de Aprendizaje Automático** <br />
-- *Sistema de Recomendación ítem-ítem:* Desarrollé un modelo que recomienda juegos similares en base a un juego dado, utilizando similitud del coseno. <br />
-- *Sistema de Recomendación usuario-ítem:* Implementé un modelo que recomienda juegos a un usuario en función de juegos que otros usuarios similares disfrutaron.<br />
-
+Creé el sistema de recomendación con los dos enfoques propuestos:
+- **3.1 *[Sistema de Recomendación ítem-ítem](Notebooks/recomienda_item_item.ipynb)***: Desarrollé un modelo que recomienda juegos similares en base a un juego dado, utilizando similitud del coseno.<br />
+- **3.2 *Sistema de Recomendación usuario-ítem***: Implementé un modelo que recomienda juegos a un usuario en función de juegos que otros usuarios similares disfrutaron.<br />
 **4. Implementación de MLOps** <br />
-*Deploy del Modelo:* Desplegué el modelo de recomendación como parte de la API. <br />
+**Deploy del Modelo:** Desplegué el modelo de recomendación como parte de la API, la cual puedes consultar acá: **[URL de la API](https://proyecto-individual-1-mlops-9770.onrender.com/docs)**. <br />
 
 **5. Video Explicativo** <br />
 Grabé un video explicativo que muestra el funcionamiento de la API, consultas realizadas y una breve explicación de los modelos de ML utilizados.<br />
 <br />
 
 ## Estructura del Repositorio <br />
-**1. [/Notebooks](Notebooks/):** Contiene los Jupyter Notebooks donde se realizaron las extracciones, transformaciones y carga de datos (ETL) y análisis exploratorio de los datos (EDA).<br />
+**1. [/Notebooks](Notebooks/):** Contiene los Jupyter Notebooks con el Código completo y bien comentado donde se realizaron las extracciones, transformaciones y carga de datos (ETL) y análisis exploratorio de los datos (EDA). <br />
 
-**2. [/API](API/):** Almacena el código correspondiente a la implementación de la API con FastAPI.<br />
+**2. [/Datasets](Datasets/):** Almacena los datasets utilizados en una versión limpia y procesada de los mismos.<br />
+- **3.1 *Archivos_API:*** Contiene los datasets en formato csv consumidos por la API.
+- **3.2 *Archivos_Limpios:*** Contiene los archivos depurados después de haber realizado el ETL.
+- **3.2 *Archivos_ML:*** Contiene los archivos consumidos por la API para hacer el sistema de recomendación.
 
-**3. [/Modelos](Modelos/):** Contiene el código y los resultados de los modelos de recomendación implementados.<br />
-
-**4. [/Datasets](Datasets/):** Almacena los datasets utilizados en una versión limpia y procesada de los mismos.<br />
-
-**5. [/Video](Video/):** Contiene el video explicativo del proyecto.<br />
+**3. [/Video](Video/):** Contiene el video explicativo del proyecto.<br />
 <br />
 
 ## Ejecutar la API (en su máquina local) <br />
