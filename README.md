@@ -33,10 +33,10 @@ Para acceder a la funcionalidad completa de la API y explorar las recomendacione
 **2. Análisis Exploratorio de Datos (EDA)** <br />
 Investigé relaciones entre variables, identifiqué outliers y busqué patrones interesantes en los datos. El notebook [EDA_Análisis Exploratorio de Datos](Notebooks/EDA_AnálisisExploratorioDatos.ipynb)<br />
 
-**3. Modelos de Aprendizaje Automático** <br />
+**3. Modelo de Aprendizaje Automático** <br />
 Creé el sistema de recomendación con los dos enfoques propuestos:
 - **3.1 *[Sistema de Recomendación ítem-ítem](Notebooks/recomienda_item_item.ipynb)***: Desarrollé un modelo que recomienda juegos similares en base a un juego dado, utilizando similitud del coseno.<br />
-- **3.2 *Sistema de Recomendación usuario-ítem***: Implementé un modelo que recomienda juegos a un usuario en función de juegos que otros usuarios similares disfrutaron.<br />
+
 **4. Implementación de MLOps** <br />
 **Deploy del Modelo:** Desplegué el modelo de recomendación como parte de la API, la cual puedes consultar acá: **[URL de la API](https://proyecto-individual-1-mlops-9770.onrender.com/docs)**. <br />
 
