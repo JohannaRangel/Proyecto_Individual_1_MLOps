@@ -21,12 +21,13 @@ El propósito central es la creación del primer modelo de Machine Learning (end
   
 - **1.2 *Feature Engineering:*** Creé la columna **``` sentiment_analysis ```** aplicando análisis de sentimiento a las reseñas de los usuarios, puede ver el detalle en el notebook [ETL_user_reviews](Notebooks/ETL_user_reviews.ipynb). <br />
 
-- **1.3 *Desarrollo de API:*** Implementé una API con FastAPI y se deployó en Render, ésta proporciona cinco (5) consultas sobre información de videojuegos. Puede ver el detalle en el notebook [Funciones](Notebooks/Funciones.ipynb).<br />
+- **1.3 *Desarrollo de API:*** Implementé una API con FastAPI y se deployó en Render, ésta proporciona cinco (5) consultas sobre información de videojuegos. Puede ver el detalle del código en los notebooks [Funciones](Notebooks/Funciones.ipynb) y [Consultas](Consultas/Funciones.ipynb).<br />
   + Endpoint 1 (PlayTimeGenre): Devuelve año con mas horas jugadas para un género dado.<br />
   + Endpoint 2 (UserForGenre): Devuelve el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año.<br />
   + Endpoint 3 (UsersRecommend): Devuelve el top 3 de juegos MÁS recomendados por usuarios para el año dado.<br />
   + Endpoint 4 (UsersWorstDeveloper): Devuelve el top 3 de desarrolladoras con juegos MENOS recomendados por usuarios para el año dado.<br />
   + Endpoint 5 (sentiment_analysis): Según la empresa desarrolladora, se devuelve un diccionario con el nombre de la desarrolladora como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor
+Para acceder a la funcionalidad completa de la API y explorar las recomendaciones de juegos, puedes visitar [URL de la API]([Consultas](https://proyecto-individual-1-mlops-9770.onrender.com/docs)). En este sitio, encontrarás diversas funciones, desde obtener las mejores recomendaciones de juegos hasta explorar análisis de sentimientos y estadísticas detalladas. ¡Disfruta explorando el mundo de los juegos con nuestra API <br />
   
 **2. Análisis Exploratorio de Datos (EDA)** <br />
 Investigé relaciones entre variables, identifiqué outliers y busqué patrones interesantes en los datos.<br />
