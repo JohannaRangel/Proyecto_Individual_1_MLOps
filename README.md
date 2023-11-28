@@ -34,7 +34,7 @@ Para acceder a la funcionalidad completa de la API y explorar las recomendacione
 Investigé relaciones entre variables, identifiqué outliers y busqué patrones interesantes en los datos. El notebook [EDA_Análisis Exploratorio de Datos](Notebooks/EDA_AnálisisExploratorioDatos.ipynb)<br />
 
 **3. Modelo de Aprendizaje Automático** <br />
-Creé el sistema de recomendación con los dos enfoques propuestos:
+Creé el sistema de recomendación con uno de los enfoques propuestos:
 - **3.1 *[Sistema de Recomendación ítem-ítem](Notebooks/recomienda_item_item.ipynb)***: Desarrollé un modelo que recomienda juegos similares en base a un juego dado, utilizando similitud del coseno. Con CountVectorizer se convirtieron los textos de la columna 'specs' en vectores numéricos para posterior calcular la similitud del coseno.<br />
 Se utilizó la métrica de **similitud del coseno**, ya que mide el coseno del ángulo entre dos vectores. Cuanto más cercano a 1, más similares son los vectores. Este método fue clave para determinar qué tan parecidos son los juegos entre sí. Esto se utiliza para generar recomendaciones, ya que los juegos con vectores similares son considerados como recomendaciones potenciales.<br />
 
