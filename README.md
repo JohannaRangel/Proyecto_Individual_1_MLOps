@@ -42,7 +42,7 @@ Se utilizó la métrica de **similitud del coseno**, ya que mide el coseno del �
 **Deploy del Modelo:** Desplegué el modelo de recomendación como parte de la API, la cual puedes consultar acá: **[URL de la API](https://proyecto-individual-1-mlops-9770.onrender.com/docs)**. <br />
 
 **5. Video Explicativo** <br />
-Grabé un video explicativo que muestra el funcionamiento de la API, consultas realizadas y una breve explicación de los modelos de ML utilizados.<br />
+Grabé un video explicativo que muestra el funcionamiento de la API, consultas realizadas y una breve explicación de los modelos de ML utilizados [Google Drive - Video](https://bit.ly/3N3Vzmb).<br />
 <br />
 
 ## Estructura del Repositorio <br />
