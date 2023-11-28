@@ -14,7 +14,7 @@ El propósito central es la creación del primer modelo de Machine Learning (end
 <br />
 **1. Ingeniería de Datos (ETL y API)** <br />
 
-- **1.1 *Transformaciones de Datos:*** Inicialmente, recibí tres (3) archivos en formato JSON, los cuales están almacenados en la carpeta **Input** de un repositorio público en **[Google Drive](https://bit.ly/47J98PN).** Realicé transformaciones esenciales para cargar los conjuntos de datos con el formato adecuado. Estas transformaciones se llevaron a cabo con el propósito de optimizar tanto el rendimiento de la API como el entrenamiento del modelo.<br />
+- **1.1 *Transformaciones de Datos:*** Inicialmente, recibí tres (3) archivos en formato JSON, los cuales están almacenados en la carpeta **Input** de un repositorio público en **[Google Drive](https://bit.ly/47J98PN).** Realicé transformaciones esenciales para cargar los conjuntos de datos con el formato adecuado. Estas transformaciones se llevaron a cabo con el propósito de optimizar tanto el rendimiento de la API como el entrenamiento del modelo. <br />
   + [australian_user_reviews.json](https://bit.ly/49LHpQo): Contiene las reseñas de juegos específicamente realizadas por usuarios australianos. Se puede hacer referencia al notebook [ETL_user_reviews](Notebooks/ETL_user_reviews.ipynb) para obtener más detalles sobre cómo se procesaron las reseñas dando como resultado un nuevo archivo con datos limpios, [user_reviews_cleaned.csv](Datasets/Archivos_Limpios/user_reviews_cleaned.csv).<br />
   + [output_steam_games.json](https://bit.ly/49MGNKk): Este archivo proporciona información detallada sobre los juegos disponibles en la plataforma Steam. Incluye datos como géneros, etiquetas, especificaciones, desarrolladores, año de lanzamiento, precio y otros atributos relevantes de cada juego. En el notebook [ETL_steam_game](Notebooks/ETL_steam_game.ipynb) puedes revisar el proceso de limpieza y transformación de datos, el cual culmina con la creación de un nuevo archivo llamado [steam_games_cleaned.csv](Datasets/Archivos_Limpios/steam_games_cleaned.csv). <br /> 
   + [australian_users_items.json](https://bit.ly/46AauM0): El archivo australian_users_items.json contiene información sobre los ítems relacionados con usuarios australianos. Este conjunto de datos ha pasado por un proceso de Extracción, Transformación y Carga (ETL), que se detalla en el notebook [ETL_user_items](Notebooks/ETL_user_items.ipynb). Como resultado de este proceso, se generó un nuevo archivo [user_items_cleaned.csv](Datasets/Archivos_Limpios/user_items_cleaned.csv) para facilitar su manipulación y análisis, brindando así una estructura más amigable y lista para su integración en el modelo.<br />
@@ -45,14 +45,16 @@ Grabé un video explicativo que muestra el funcionamiento de la API, consultas r
 <br />
 
 ## Estructura del Repositorio <br />
-**1. [/Notebooks](Notebooks/):** Contiene los Jupyter Notebooks con el Código completo y bien comentado donde se realizaron las extracciones, transformaciones y carga de datos (ETL) y análisis exploratorio de los datos (EDA). <br />
+**1. [/Notebooks](Notebooks/):** Contiene los Jupyter Notebooks con el Código completo y bien comentado donde se realizaron las extracciones, transformaciones y carga de datos (ETL), análisis exploratorio de los datos (EDA), y el archivo con Diccionario de datos, MVP, Pautas del proyecto[Varios](Notebooks/Varios.ipynb).<br />
 
 **2. [/Datasets](Datasets/):** Almacena los datasets utilizados en una versión limpia y procesada de los mismos. Las fuentes de datos iniciales se encuentra almacenadas en la carpeta input en el siguiente repositorio [Google Drive](https://bit.ly/47J98PN)<br />
-- **3.1 *Archivos_API:*** Contiene los datasets en formato csv consumidos por la API.
-- **3.2 *Archivos_Limpios:*** Contiene los archivos depurados después de haber realizado el ETL.
-- **3.2 *Archivos_ML:*** Contiene los archivos consumidos por la API para hacer el sistema de recomendación.
+- **3.1 *Archivos_API:*** Contiene los datasets en formato csv consumidos por la API.<br />
+- **3.2 *Archivos_Limpios:*** Contiene los archivos depurados después de haber realizado el ETL.<br />
+- **3.2 *Archivos_ML:*** Contiene los archivos consumidos por la API para hacer el sistema de recomendación.<br />
 
-**3. [/Video](Video/):** Contiene el video explicativo del proyecto.<br />
+**3. [/assets](assets/):** Carpeta con imágenes y recursos utilizados en el desarrollo del proyecto.<br />
+
+**4. [/Video](Video/):** Contiene el video explicativo del proyecto.<br />
 <br />
 
 ## Ejecutar la API (en su máquina local) <br />
@@ -81,3 +83,7 @@ pip install -r requirements.txt
 ```
 uvicorn main:app --reload
 ```
+
+## Autor <br />
+Johanna Rangel.<br />
+Para cualquier sugerencia/recomendación/mejora respecto al proyecto puedes contactarme por mi [LinkedIn](www.linkedin.com/in/rangeljohanna)<br />
