@@ -55,7 +55,7 @@ Grabé un video explicativo que muestra el funcionamiento de la API, consultas r
 
 **3. [/assets](assets/):** Carpeta con imágenes y recursos utilizados en el desarrollo del proyecto.<br />
 
-**4. [/Video](Video/):** Contiene el video explicativo del proyecto.<br />
+**4. [/Video](Video/):** Contiene el video explicativo del proyecto, el cual se encuentra almacenado en [Google Drive - Video](https://bit.ly/3N3Vzmb).<br />
 <br />
 
 ## Ejecutar la API (en su máquina local) <br />
